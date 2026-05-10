@@ -1,0 +1,21 @@
+
+# Tittle: KI-gestütztes Dashboard für komplexe Datenvisualisierung
+
+## Aufgabe: Nutzen Sie die KI als Full-Stack-Assistenten, um ein funktionales MVP (Minimum Viable Product) zu bauen.
+
+## Zielsetzung: Entwickeln Sie eine funktionale Webanwendung zur Datenvisualisierung. Nutzen Sie generative KI (z.B. Gemini, ChatGPT) als Pair-Programmer, um von einem technisch-funktionalen Prototyp zu einer HCI-optimierten, nutzerzentrierten Anwendung zu gelangen.
+
+---
+
+# Meilenstein 1:
+
+## Phase 1: Der KI-Baseline-Entwurf
+- Erstellen Sie mittels Prompting eine erste lauffähige Version in Python (Streamlit).
+- Der Fokus liegt hier rein auf der Funktionalität („Zeige die Daten an“).
+- Das Resultat ist ein funktionaler, aber meist unbenutzbarer „Data Dump“.
+- Zur Dokumentation führen Sie ein Prompt-Logbuch (Prompt – Datum – LLM-model), mit Liste und Verwendungszweck aller verwendeten Tools.
+- Erläutern Sie Ihre Arbeitsschritte und auch die Probleme,
+
+
+**Mein Plan**:
+- skills erstellen, um die logs (Prompt-logbuch) zu erstellen und zu verwalten. 

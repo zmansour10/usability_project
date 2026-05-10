@@ -1,0 +1,255 @@
+site_id,site_name,parameter,n_observations,first_timestamp,last_timestamp,mean_value,std_value,min_value,max_value
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",Abfiltrierbare Stoffe,308,1979-04-18 12:03:00,2023-11-21 14:34:00,21.4516,9.8684,2.9,103.0
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",Ammonium-Stickstoff (NH4-N),337,1977-01-10 12:00:00,2023-11-21 14:34:00,0.7818,1.072,-0.08,4.7
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",BSB 14 (Zehrung 14) ohne Hemmer,171,1986-01-15 14:18:00,2011-11-01 13:13:00,10.1105,4.2335,2.9,22.7
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",BSB 21 (Zehrung 21) ohne Hemmer,172,1986-01-15 14:18:00,2011-11-01 13:13:00,11.5924,4.7885,3.3,25.7
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",BSB 5 (Zehrung 5) ohne Hemmer,110,1977-02-07 12:00:00,1986-12-08 14:53:00,6.37,2.45,0.7,13.9
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",BSB 7 (Zehrung 7) ohne Hemmer,236,1986-01-15 14:18:00,2023-11-21 14:34:00,5.9678,2.6605,1.6,14.1
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",Chlorid (Cl),337,1977-01-10 12:00:00,2023-11-21 14:34:00,156.9605,52.5801,30.0,343.0
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",CSB (chemischer Sauerstoffbedarf),139,1978-01-12 11:50:00,1985-12-04 13:55:00,35.6619,8.2966,18.0,56.0
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",DOC (gelöster organischer Kohlenstoff),282,1982-01-15 13:42:00,2023-11-21 14:34:00,7.8947,2.6141,4.4,19.0
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",elektrische Leitfähigkeit (25°C),341,1977-01-10 12:00:00,2023-11-21 14:34:00,99.4135,21.9391,40.5,174.0
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",Gesamthärte (Ca + Mg),11,1981-01-15 16:40:00,1981-11-05 13:40:00,18.5455,3.1101,13.0,22.0
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",Gesamt-Phosphor (P),326,1978-01-12 11:50:00,2023-11-21 14:34:00,0.1741,0.1746,-0.049,0.7
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",Gesamt-Stickstoff (N),325,1978-01-12 11:50:00,2023-11-21 14:34:00,4.9252,2.1794,1.1,12.8
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",Nitrat-Stickstoff (NO3-N),334,1977-01-10 12:00:00,2023-11-21 14:34:00,2.9709,1.4551,0.14,8.0
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",Nitrit-Stickstoff (NO2-N),336,1977-01-10 12:00:00,2023-11-21 14:34:00,-0.0089,0.1321,-0.09,1.0
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",ortho-Phosphat-Phosphor (o-PO4-P),336,1977-01-10 12:00:00,2023-11-21 14:34:00,0.0181,0.1084,-0.09,0.77
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",pH-Wert,341,1977-01-10 12:00:00,2023-11-21 14:34:00,7.6848,0.3638,7.0,8.8
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",Sauerstoffgehalt,353,1977-01-10 12:00:00,2023-11-21 14:34:00,7.9926,2.8743,1.5,14.3
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",Sauerstoffsättigung,331,1977-01-10 12:00:00,2023-11-21 14:34:00,75.435,20.8146,19.0,125.0
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",Silikat-Si,182,1992-02-11 13:22:00,2023-11-21 14:34:00,2.0816,2.1395,-0.09,6.0
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",Silikat (SiO2),59,2013-05-14 13:38:00,2023-11-21 14:34:00,4.6966,4.3744,-0.01,13.0
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",TIC (anorganischer Kohlenstoff),254,1984-02-08 13:41:00,2023-11-21 14:34:00,23.3299,3.9984,15.0,35.0
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",TOC (organischer Kohlenstoff),324,1978-01-12 11:50:00,2023-11-21 14:34:00,10.3522,3.9704,4.7,28.0
+55,"Köhlbrandbrücke - Strom-km 622,6 (SE)",Wassertemperatur,336,1977-01-10 12:00:00,2023-11-21 14:34:00,13.8349,7.1037,-0.1,25.7
+154,"Afrikahöft, Indiahafen",Abfiltrierbare Stoffe,129,1979-04-18 12:21:00,1991-11-12 13:28:00,17.9969,6.537,2.9,39.0
+154,"Afrikahöft, Indiahafen",Ammonium-Stickstoff (NH4-N),144,1978-01-12 10:20:00,1991-11-12 13:28:00,1.5456,1.0805,0.0,4.4
+154,"Afrikahöft, Indiahafen",BSB 14 (Zehrung 14) ohne Hemmer,51,1986-01-15 14:31:00,1991-11-12 13:28:00,13.1784,3.6771,7.5,24.0
+154,"Afrikahöft, Indiahafen",BSB 21 (Zehrung 21) ohne Hemmer,50,1986-02-12 13:09:00,1991-11-12 13:28:00,14.882,3.8114,8.9,22.6
+154,"Afrikahöft, Indiahafen",BSB 5 (Zehrung 5) ohne Hemmer,102,1978-01-12 10:20:00,1986-12-08 15:27:00,6.0431,2.394,0.6,13.8
+154,"Afrikahöft, Indiahafen",BSB 7 (Zehrung 7) ohne Hemmer,51,1986-01-15 14:31:00,1991-11-12 13:28:00,8.2451,2.1516,5.3,14.0
+154,"Afrikahöft, Indiahafen",Chlorid (Cl),144,1978-01-12 10:20:00,1991-11-12 13:28:00,179.8958,59.4157,78.0,347.0
+154,"Afrikahöft, Indiahafen",CSB (chemischer Sauerstoffbedarf),139,1978-01-12 10:20:00,1985-12-04 14:08:00,36.0216,8.1182,20.0,58.0
+154,"Afrikahöft, Indiahafen",DOC (gelöster organischer Kohlenstoff),97,1982-01-15 13:56:00,1991-11-12 13:28:00,10.9289,2.6132,5.0,19.0
+154,"Afrikahöft, Indiahafen",elektrische Leitfähigkeit (25°C),144,1978-01-12 10:20:00,1991-11-12 13:28:00,110.5007,25.5747,51.0,176.0
+154,"Afrikahöft, Indiahafen",Filterrückstand,21,1987-02-19 16:07:00,1991-11-12 13:28:00,12.7905,5.1331,4.6,24.5
+154,"Afrikahöft, Indiahafen",filtriertes Volumen,21,1987-02-19 16:07:00,1991-11-12 13:28:00,268.2524,367.9858,1.004,952.0
+154,"Afrikahöft, Indiahafen",Gesamthärte (Ca + Mg),11,1981-01-15 16:07:00,1981-11-05 13:54:00,19.1818,2.7136,13.0,22.0
+154,"Afrikahöft, Indiahafen",Gesamt-Phosphor (P),142,1978-01-12 10:20:00,1991-11-12 13:28:00,0.3056,0.1241,0.08,0.64
+154,"Afrikahöft, Indiahafen",Gesamt-Stickstoff (N),139,1978-01-12 10:20:00,1991-11-12 13:28:00,6.7122,1.3464,3.1,9.7
+154,"Afrikahöft, Indiahafen",Nitrat-Stickstoff (NO3-N),142,1978-01-12 10:20:00,1991-11-12 13:28:00,3.6096,1.2134,0.87,6.9
+154,"Afrikahöft, Indiahafen",Nitrit-Stickstoff (NO2-N),143,1978-01-12 10:20:00,1991-11-12 13:28:00,0.0475,0.1594,-0.08,0.74
+154,"Afrikahöft, Indiahafen",ortho-Phosphat-Phosphor (o-PO4-P),143,1978-01-12 10:20:00,1991-11-12 13:28:00,0.0825,0.0867,-0.07,0.6
+154,"Afrikahöft, Indiahafen",pH-Wert,144,1978-01-12 10:20:00,1991-11-12 13:28:00,7.4597,0.1775,7.0,8.4
+154,"Afrikahöft, Indiahafen",Sauerstoffgehalt,140,1978-01-12 10:20:00,1991-11-12 13:28:00,7.5229,2.4563,1.4,12.5
+154,"Afrikahöft, Indiahafen",Sauerstoffsättigung,137,1978-01-12 10:20:00,1991-10-15 13:51:00,70.1533,16.0793,18.0,97.0
+154,"Afrikahöft, Indiahafen",Silikat-Si,24,1989-02-09 13:21:00,1991-11-12 13:28:00,3.0488,1.9103,-0.07,5.8
+154,"Afrikahöft, Indiahafen",TIC (anorganischer Kohlenstoff),70,1984-02-08 13:55:00,1991-11-12 13:28:00,26.04,4.4998,15.0,40.0
+154,"Afrikahöft, Indiahafen",TOC (organischer Kohlenstoff),139,1978-01-12 10:20:00,1991-11-12 13:28:00,13.9432,4.2731,7.0,26.0
+154,"Afrikahöft, Indiahafen",Wassertemperatur,141,1978-01-12 10:20:00,1991-10-15 13:51:00,12.1475,7.0319,-0.4,23.8
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",Abfiltrierbare Stoffe,310,1979-03-21 13:05:00,2023-11-21 14:37:00,30.3242,13.8425,1.0,102.0
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",Ammonium-Stickstoff (NH4-N),345,1977-01-10 11:25:00,2024-11-05 10:34:00,0.7335,1.0878,-0.09,4.9
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",BSB 14 (Zehrung 14) ohne Hemmer,171,1986-01-15 14:23:00,2011-11-01 13:17:00,12.283,5.3765,2.8,25.8
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",BSB 21 (Zehrung 21) ohne Hemmer,172,1986-01-15 14:23:00,2011-11-01 13:17:00,14.0994,6.1451,3.2,31.1
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",BSB 5 (Zehrung 5) ohne Hemmer,111,1977-02-07 11:30:00,1986-12-08 14:58:00,6.8369,2.6089,0.6,15.3
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",BSB 7 (Zehrung 7) ohne Hemmer,237,1986-01-15 14:23:00,2023-11-21 14:37:00,7.3624,3.3805,1.4,15.5
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",Chlorid (Cl),339,1977-01-10 11:25:00,2023-11-21 14:37:00,155.4735,53.5962,30.0,372.0
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",CSB (chemischer Sauerstoffbedarf),139,1978-01-12 11:20:00,1985-12-04 14:00:00,39.1007,10.5214,20.0,74.0
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",DOC (gelöster organischer Kohlenstoff),281,1982-01-15 13:48:00,2023-11-21 14:37:00,7.9039,2.6841,4.0,18.0
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",elektrische Leitfähigkeit (25°C),343,1977-01-10 11:25:00,2023-11-21 14:37:00,98.7239,22.1183,40.2,181.0
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",Gesamthärte (Ca + Mg),11,1981-01-15 16:35:00,1981-11-05 13:45:00,19.1818,2.6007,13.0,23.0
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",Gesamt-Phosphor (P),336,1978-01-12 11:20:00,2024-11-05 10:34:00,0.2002,0.1947,-0.039,0.85
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",Gesamt-Stickstoff (N),332,1978-01-12 11:20:00,2024-11-05 10:34:00,4.8543,2.1529,0.73,10.1
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",Nitrat-Stickstoff (NO3-N),342,1977-01-10 11:25:00,2024-11-05 10:34:00,2.8625,1.4781,0.1,7.1
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",Nitrit-Stickstoff (NO2-N),344,1977-01-10 11:25:00,2024-11-05 10:34:00,-0.0363,0.0987,-0.09,0.63
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",ortho-Phosphat-Phosphor (o-PO4-P),344,1977-01-10 11:25:00,2024-11-05 10:34:00,0.0047,0.0936,-0.09,0.45
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",pH-Wert,343,1977-01-10 11:25:00,2023-11-21 14:37:00,7.8519,0.4808,6.9,9.0
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",Sauerstoffgehalt,356,1977-01-10 11:25:00,2023-11-21 14:37:00,9.3587,2.4032,3.3,14.4
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",Sauerstoffsättigung,336,1977-01-10 11:25:00,2023-11-21 14:37:00,89.9405,19.9126,40.0,153.0
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",Silikat-Si,2,1998-05-12 11:46:00,2001-05-07 11:51:00,0.205,0.1485,0.1,0.31
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",TIC (anorganischer Kohlenstoff),255,1984-02-08 13:47:00,2023-11-21 14:37:00,23.1012,4.2887,13.0,36.0
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",TOC (organischer Kohlenstoff),326,1978-01-12 11:20:00,2023-11-21 14:37:00,11.5359,4.1924,4.6,28.0
+8004,"Alte Harburger Elbbrücken - Strom-km 614,9 (SE)",Wassertemperatur,341,1977-01-10 11:25:00,2023-11-21 14:37:00,13.573,7.2361,-0.3,25.7
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",Abfiltrierbare Stoffe,311,1979-01-23 14:05:00,2023-11-21 14:42:00,21.5817,9.0576,2.9,70.3
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",Ammonium-Stickstoff (NH4-N),334,1978-01-12 10:35:00,2024-11-05 10:37:00,0.7031,1.0191,-0.08,4.4
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",BSB 14 (Zehrung 14) ohne Hemmer,171,1986-01-15 14:29:00,2011-11-01 13:21:00,9.8187,4.2005,2.7,23.0
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",BSB 21 (Zehrung 21) ohne Hemmer,172,1986-02-12 13:08:00,2011-11-01 13:21:00,11.1297,4.5301,3.2,22.8
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",BSB 5 (Zehrung 5) ohne Hemmer,102,1978-01-12 10:35:00,1986-12-08 15:04:00,6.0275,2.4542,0.8,14.2
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",BSB 7 (Zehrung 7) ohne Hemmer,236,1986-01-15 14:29:00,2023-11-21 14:42:00,5.8051,2.6253,1.4,13.4
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",Chlorid (Cl),327,1978-01-12 10:35:00,2023-11-21 14:42:00,156.1563,55.1541,29.0,341.0
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",CSB (chemischer Sauerstoffbedarf),140,1978-01-12 10:35:00,1985-12-04 14:07:00,35.8571,8.0579,20.0,57.0
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",DOC (gelöster organischer Kohlenstoff),279,1982-01-15 13:54:00,2023-11-21 14:42:00,7.99,2.862,4.1,22.0
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",elektrische Leitfähigkeit (25°C),333,1978-01-12 10:35:00,2023-11-21 14:42:00,99.8324,22.5328,39.9,175.0
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",Gesamthärte (Ca + Mg),11,1981-01-15 16:05:00,1981-11-05 13:52:00,18.9091,2.8445,13.0,23.0
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",Gesamt-Phosphor (P),336,1978-01-12 10:35:00,2024-11-05 10:37:00,0.165,0.2308,-0.058,3.2
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",Gesamt-Stickstoff (N),331,1978-01-12 10:35:00,2024-11-05 10:37:00,4.8363,2.1361,0.9,10.3
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",Nitrat-Stickstoff (NO3-N),332,1978-01-12 10:35:00,2024-11-05 10:37:00,2.948,1.4319,0.1,7.0
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",Nitrit-Stickstoff (NO2-N),333,1978-01-12 10:35:00,2024-11-05 10:37:00,-0.0099,0.1215,-0.09,0.67
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",ortho-Phosphat-Phosphor (o-PO4-P),333,1978-01-12 10:35:00,2024-11-05 10:37:00,0.0073,0.0926,-0.09,0.69
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",pH-Wert,333,1978-01-12 10:35:00,2023-11-21 14:42:00,7.7276,0.3805,6.9,8.8
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",Sauerstoffgehalt,346,1978-01-12 10:35:00,2023-11-21 14:42:00,8.0431,2.9414,1.4,14.3
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",Sauerstoffsättigung,327,1978-01-12 10:35:00,2023-11-21 14:42:00,76.2752,21.3924,17.0,135.0
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",Silikat-Si,184,1992-02-11 13:30:00,2023-11-21 14:42:00,2.0102,2.1533,-0.09,7.2
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",Silikat (SiO2),59,2013-05-14 13:46:00,2023-11-21 14:42:00,4.642,4.5146,-0.08,16.0
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",TIC (anorganischer Kohlenstoff),252,1984-02-08 13:53:00,2023-11-21 14:42:00,23.4079,3.9783,15.0,36.0
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",TOC (organischer Kohlenstoff),323,1978-01-12 10:35:00,2023-11-21 14:42:00,10.683,4.3644,4.5,31.0
+8052,"Hafenstraße (Brücke 9) - Strom-km 623,5",Wassertemperatur,331,1978-01-12 10:35:00,2023-11-21 14:42:00,13.7471,7.205,-0.4,25.5
+8054,"Harburg, Süderelbe (Strom-km 615,6)",Wassertemperatur,4278,1981-01-01 00:00:00,1986-12-31 00:00:00,11.1433,7.2337,-0.1,25.7
+8089,"Neumühlen (Anleger) - Strom-km 626,7",Abfiltrierbare Stoffe,309,1979-04-18 11:55:00,2023-11-21 14:31:00,23.3735,10.3674,2.0,84.0
+8089,"Neumühlen (Anleger) - Strom-km 626,7",Ammonium-Stickstoff (NH4-N),335,1978-01-12 12:10:00,2024-11-05 10:27:00,0.7559,1.0436,-0.08,4.7
+8089,"Neumühlen (Anleger) - Strom-km 626,7",BSB 14 (Zehrung 14) ohne Hemmer,172,1986-01-15 14:15:00,2011-11-01 13:11:00,9.4047,4.1457,2.8,24.5
+8089,"Neumühlen (Anleger) - Strom-km 626,7",BSB 21 (Zehrung 21) ohne Hemmer,172,1986-02-12 12:55:00,2011-11-01 13:11:00,10.7099,4.453,3.4,26.6
+8089,"Neumühlen (Anleger) - Strom-km 626,7",BSB 5 (Zehrung 5) ohne Hemmer,103,1978-01-12 12:10:00,1986-12-08 14:49:00,6.7903,2.5683,0.6,14.2
+8089,"Neumühlen (Anleger) - Strom-km 626,7",BSB 7 (Zehrung 7) ohne Hemmer,236,1986-01-15 14:15:00,2023-11-21 14:31:00,5.5394,2.5487,0.7,13.8
+8089,"Neumühlen (Anleger) - Strom-km 626,7",Chlorid (Cl),329,1978-01-12 12:10:00,2023-11-21 14:31:00,157.8988,54.4393,30.0,344.0
+8089,"Neumühlen (Anleger) - Strom-km 626,7",CSB (chemischer Sauerstoffbedarf),140,1978-02-10 12:15:00,1985-12-04 13:51:00,36.3643,8.4472,16.0,69.0
+8089,"Neumühlen (Anleger) - Strom-km 626,7",DOC (gelöster organischer Kohlenstoff),282,1982-01-15 13:38:00,2023-11-21 14:31:00,7.8809,2.5758,4.4,16.0
+8089,"Neumühlen (Anleger) - Strom-km 626,7",elektrische Leitfähigkeit (25°C),334,1978-01-12 12:10:00,2023-11-21 14:31:00,100.0299,22.1787,40.2,172.0
+8089,"Neumühlen (Anleger) - Strom-km 626,7",Gesamthärte (Ca + Mg),11,1981-01-15 16:01:00,1981-11-05 13:37:00,18.1818,2.822,13.0,22.0
+8089,"Neumühlen (Anleger) - Strom-km 626,7",Gesamt-Phosphor (P),334,1978-01-12 12:10:00,2024-11-05 10:27:00,0.1696,0.1806,-0.047,1.0
+8089,"Neumühlen (Anleger) - Strom-km 626,7",Gesamt-Stickstoff (N),331,1978-01-12 12:10:00,2024-11-05 10:27:00,4.9483,2.2489,0.9,16.9
+8089,"Neumühlen (Anleger) - Strom-km 626,7",Nitrat-Stickstoff (NO3-N),332,1978-01-12 12:10:00,2024-11-05 10:27:00,2.9809,1.4056,0.1,7.0
+8089,"Neumühlen (Anleger) - Strom-km 626,7",Nitrit-Stickstoff (NO2-N),334,1978-01-12 12:10:00,2024-11-05 10:27:00,-0.0057,0.1162,-0.09,0.62
+8089,"Neumühlen (Anleger) - Strom-km 626,7",ortho-Phosphat-Phosphor (o-PO4-P),334,1978-01-12 12:10:00,2024-11-05 10:27:00,0.0168,0.095,-0.09,0.37
+8089,"Neumühlen (Anleger) - Strom-km 626,7",pH-Wert,334,1978-01-12 12:10:00,2023-11-21 14:31:00,7.6204,0.3201,6.9,8.8
+8089,"Neumühlen (Anleger) - Strom-km 626,7",Sauerstoffgehalt,346,1978-01-12 12:10:00,2023-11-21 14:31:00,7.4951,3.0859,0.5,14.4
+8089,"Neumühlen (Anleger) - Strom-km 626,7",Sauerstoffsättigung,323,1978-01-12 12:10:00,2023-11-21 14:31:00,70.387,21.9064,7.0,120.0
+8089,"Neumühlen (Anleger) - Strom-km 626,7",Silikat-Si,3,1992-04-07 12:29:00,2001-05-07 11:43:00,1.5533,1.9604,0.19,3.8
+8089,"Neumühlen (Anleger) - Strom-km 626,7",TIC (anorganischer Kohlenstoff),254,1984-02-08 13:38:00,2023-11-21 14:31:00,23.6055,3.9105,14.0,36.0
+8089,"Neumühlen (Anleger) - Strom-km 626,7",TOC (organischer Kohlenstoff),326,1978-01-12 12:10:00,2023-11-21 14:31:00,10.4598,4.0044,4.9,27.0
+8089,"Neumühlen (Anleger) - Strom-km 626,7",Wassertemperatur,329,1978-01-12 12:10:00,2023-11-21 14:31:00,13.7318,7.1149,-0.1,25.4
+8090,"Niederhafen (Strom-km 622,6)",Sauerstoffgehalt,7326,1982-01-12 00:00:00,1992-09-22 00:00:00,7.1901,3.1123,-0.1,13.0
+8090,"Niederhafen (Strom-km 622,6)",Wassertemperatur,7293,1982-01-12 00:00:00,1992-09-22 00:00:00,11.7364,6.9637,-0.3,25.0
+8135,"Seemannshöft (Strom-km 628,9)",Abfiltrierbare Stoffe,2829,1982-01-20 11:20:00,2024-12-02 11:30:00,36.5252,20.9808,1.0,166.0
+8135,"Seemannshöft (Strom-km 628,9)",Ammonium-Stickstoff (NH4-N),1825,1982-01-20 11:20:00,2024-12-02 11:30:00,0.534,0.9519,-0.08,4.8
+8135,"Seemannshöft (Strom-km 628,9)",BSB 14 (Zehrung 14) ohne Hemmer,1007,1986-03-06 11:00:00,2010-12-13 15:25:00,8.7558,3.9073,1.8,26.2
+8135,"Seemannshöft (Strom-km 628,9)",BSB 21 (Zehrung 21) ohne Hemmer,1063,1986-03-06 11:00:00,2011-12-08 08:45:00,9.966,4.3315,2.5,28.7
+8135,"Seemannshöft (Strom-km 628,9)",BSB 5 (Zehrung 5) ohne Hemmer,429,1982-01-20 11:20:00,2023-12-04 14:19:00,6.5039,3.6559,0.4,18.0
+8135,"Seemannshöft (Strom-km 628,9)",BSB 7 (Zehrung 7) ohne Hemmer,1487,1986-06-02 09:25:00,2024-12-02 11:30:00,5.2309,2.683,0.4,17.1
+8135,"Seemannshöft (Strom-km 628,9)",Calcium (Ca),904,1993-01-06 08:00:00,2023-12-04 14:19:00,84.9758,12.9044,48.0,122.0
+8135,"Seemannshöft (Strom-km 628,9)",Chlorid (Cl),1875,1982-01-20 11:20:00,2024-12-02 11:30:00,149.9295,56.5634,6.0,480.0
+8135,"Seemannshöft (Strom-km 628,9)",CSB (chemischer Sauerstoffbedarf),698,1982-01-20 11:20:00,2006-12-06 10:45:00,31.1695,10.6035,13.0,78.0
+8135,"Seemannshöft (Strom-km 628,9)",DOC (gelöster organischer Kohlenstoff),1846,1982-02-04 11:20:00,2024-12-02 11:30:00,6.9731,2.2666,2.3,19.0
+8135,"Seemannshöft (Strom-km 628,9)",elektrische Leitfähigkeit (25°C),38676,1981-01-01 00:00:00,2024-12-02 11:30:00,94.1603,17.8541,26.3,190.0
+8135,"Seemannshöft (Strom-km 628,9)",Filterrückstand,787,1993-01-06 08:00:00,2023-12-18 14:15:00,39.6034,22.4575,5.6,161.8
+8135,"Seemannshöft (Strom-km 628,9)",filtriertes Volumen,787,1993-01-06 08:00:00,2023-12-18 14:15:00,113.898,296.2077,1.0,999.0
+8135,"Seemannshöft (Strom-km 628,9)",Fluorid (F),108,2007-01-08 13:20:00,2016-01-11 11:25:00,0.1252,0.0308,-0.004,0.18
+8135,"Seemannshöft (Strom-km 628,9)",Gesamthärte (Ca + Mg),201,1992-01-07 11:35:00,2023-12-04 14:19:00,2.6035,0.3459,1.7,3.5
+8135,"Seemannshöft (Strom-km 628,9)",Gesamt-Phosphor (P),1863,1982-01-26 10:55:00,2024-12-02 11:30:00,0.1587,0.1419,-0.045,1.0
+8135,"Seemannshöft (Strom-km 628,9)",Gesamt-Stickstoff (N),1864,1982-01-20 11:20:00,2024-12-02 11:30:00,4.8886,1.8834,0.94,12.2
+8135,"Seemannshöft (Strom-km 628,9)",Kalium (K),870,1994-03-29 12:40:00,2023-12-04 14:19:00,8.6135,1.697,4.7,13.6
+8135,"Seemannshöft (Strom-km 628,9)",Magnesium (Mg),904,1993-01-06 08:00:00,2023-12-04 14:19:00,14.2094,2.2533,2.0,22.0
+8135,"Seemannshöft (Strom-km 628,9)",Natrium (Na),870,1994-03-29 12:40:00,2023-12-04 14:19:00,65.5411,19.4002,19.0,160.0
+8135,"Seemannshöft (Strom-km 628,9)",Nitrat-Stickstoff (NO3-N),1827,1982-01-20 11:20:00,2024-12-02 11:30:00,3.2902,1.3206,-0.039,7.3
+8135,"Seemannshöft (Strom-km 628,9)",Nitrit-Stickstoff (NO2-N),1827,1982-01-20 11:20:00,2024-12-02 11:30:00,-0.0286,0.079,-0.09,0.72
+8135,"Seemannshöft (Strom-km 628,9)",ortho-Phosphat-Phosphor (o-PO4-P),1825,1982-01-20 11:20:00,2024-12-02 11:30:00,0.002,0.0846,-0.09,0.5
+8135,"Seemannshöft (Strom-km 628,9)",pH-Wert,37736,1982-01-20 11:20:00,2024-12-02 11:30:00,7.6654,0.3098,5.9,9.1
+8135,"Seemannshöft (Strom-km 628,9)",POC,485,1994-01-03 13:10:00,2010-12-13 15:25:00,2.7473,1.1418,0.49,7.2
+8135,"Seemannshöft (Strom-km 628,9)",Sauerstoffgehalt,56316,1954-03-09 00:00:00,2024-04-30 04:00:00,7.7805,3.4235,-0.1,15.7
+8135,"Seemannshöft (Strom-km 628,9)",Sauerstoffsättigung,38100,1954-03-09 00:00:00,2024-04-30 04:00:00,74.3421,22.7036,0.0,146.0
+8135,"Seemannshöft (Strom-km 628,9)","Säurekapazität (KS 4,3)",119,2006-01-02 11:45:00,2016-02-01 14:50:00,2.0504,0.3265,1.1,2.7
+8135,"Seemannshöft (Strom-km 628,9)",Silikat-Si,1285,1994-01-03 13:10:00,2024-12-02 11:30:00,2.9338,2.1232,-0.09,12.0
+8135,"Seemannshöft (Strom-km 628,9)",Silikat (SiO2),647,1995-01-03 11:25:00,2024-12-02 11:30:00,6.3718,4.3982,-0.09,16.0
+8135,"Seemannshöft (Strom-km 628,9)",spektraler Absorptionskoeffizient (254 nm),5598,2003-01-06 12:35:00,2015-12-31 17:50:00,0.1207,0.0549,-0.05,0.352
+8135,"Seemannshöft (Strom-km 628,9)",spektraler Absorptionskoeffizient (436 nm),57,2008-01-09 10:45:00,2011-12-19 16:34:00,-0.092,0.0026,-0.0966,-0.082
+8135,"Seemannshöft (Strom-km 628,9)",Sulfat (SO4),1786,1982-01-20 11:20:00,2024-12-02 11:30:00,137.7592,30.4169,3.5,230.0
+8135,"Seemannshöft (Strom-km 628,9)",TOC (organischer Kohlenstoff),1857,1982-01-20 11:20:00,2024-12-02 11:30:00,9.1786,2.5743,4.5,24.0
+8135,"Seemannshöft (Strom-km 628,9)",Trübung (FNU),26557,1997-01-07 00:00:00,2024-04-30 04:50:00,40.9268,35.5126,-2.3,377.0
+8135,"Seemannshöft (Strom-km 628,9)",Trübung (TE/F),17,2013-06-04 16:30:00,2013-07-01 15:10:00,16.5882,7.366,7.0,33.0
+8135,"Seemannshöft (Strom-km 628,9)",Wassertemperatur,54315,1954-03-09 00:00:00,2024-04-30 03:40:00,11.6781,7.0579,-0.6,27.1
+8136,Seemannshöft QP-IIIm,Abfiltrierbare Stoffe,3618,1994-01-03 00:00:00,2024-12-02 11:18:00,50.2698,27.317,5.8,349.0
+8136,Seemannshöft QP-IIIm,Ammonium-Stickstoff (NH4-N),330,2010-03-08 14:52:00,2024-11-18 11:59:00,0.0269,0.0683,-0.05,0.27
+8136,Seemannshöft QP-IIIm,BSB 14 (Zehrung 14) ohne Hemmer,24,2010-03-08 14:52:00,2010-11-15 16:24:00,4.9708,2.819,2.5,10.3
+8136,Seemannshöft QP-IIIm,BSB 21 (Zehrung 21) ohne Hemmer,24,2010-03-08 14:52:00,2010-11-15 16:24:00,5.7583,3.0923,3.1,11.6
+8136,Seemannshöft QP-IIIm,BSB 7 (Zehrung 7) ohne Hemmer,322,2010-03-08 14:52:00,2024-11-18 11:59:00,3.6022,1.4717,1.3,8.3
+8136,Seemannshöft QP-IIIm,Calcium (Ca),48,2010-03-08 14:52:00,2011-11-28 12:21:00,87.5417,13.004,73.0,115.0
+8136,Seemannshöft QP-IIIm,Chlorid (Cl),330,2010-03-08 14:52:00,2024-11-18 11:59:00,148.0818,45.417,70.0,256.0
+8136,Seemannshöft QP-IIIm,DOC (gelöster organischer Kohlenstoff),330,2010-03-08 14:52:00,2024-11-18 11:59:00,5.8221,0.7127,4.5,8.0
+8136,Seemannshöft QP-IIIm,elektrische Leitfähigkeit (25°C),3570,1994-01-03 00:00:00,2024-12-02 11:18:00,91.4863,17.6891,38.0,199.0
+8136,Seemannshöft QP-IIIm,Gesamt-Phosphor (P),330,2010-03-08 14:52:00,2024-11-18 11:59:00,0.0756,0.0546,-0.03,0.3
+8136,Seemannshöft QP-IIIm,Gesamt-Stickstoff (N),330,2010-03-08 14:52:00,2024-11-18 11:59:00,3.005,1.1403,1.3,7.2
+8136,Seemannshöft QP-IIIm,Kalium (K),48,2010-03-08 14:52:00,2011-11-28 12:21:00,8.2375,1.309,6.3,10.9
+8136,Seemannshöft QP-IIIm,Magnesium (Mg),48,2010-03-08 14:52:00,2011-11-28 12:21:00,14.4,2.0404,11.5,18.2
+8136,Seemannshöft QP-IIIm,Natrium (Na),48,2010-03-08 14:52:00,2011-11-28 12:21:00,58.75,15.7662,40.0,91.0
+8136,Seemannshöft QP-IIIm,Nitrat-Stickstoff (NO3-N),330,2010-03-08 14:52:00,2024-11-18 11:59:00,2.2154,1.1764,0.2,6.4
+8136,Seemannshöft QP-IIIm,Nitrit-Stickstoff (NO2-N),330,2010-03-08 14:52:00,2024-11-18 11:59:00,-0.0605,0.0329,-0.09,0.06
+8136,Seemannshöft QP-IIIm,ortho-Phosphat-Phosphor (o-PO4-P),330,2010-03-08 14:52:00,2024-11-18 11:59:00,-0.0534,0.0201,-0.09,-0.02
+8136,Seemannshöft QP-IIIm,pH-Wert,1264,2011-04-06 12:21:00,2024-12-02 11:18:00,7.7321,0.2727,7.0,8.6
+8136,Seemannshöft QP-IIIm,POC,6,2010-09-22 10:12:00,2010-09-22 10:57:00,2.2683,0.5433,1.51,3.0
+8136,Seemannshöft QP-IIIm,Sauerstoffgehalt,63,2018-02-05 13:09:00,2019-09-30 11:45:00,9.2016,2.5924,5.8,13.6
+8136,Seemannshöft QP-IIIm,Sauerstoffsättigung,64,2018-02-05 13:09:00,2019-09-30 11:45:00,86.2188,10.1285,65.0,101.0
+8136,Seemannshöft QP-IIIm,Silikat-Si,330,2010-03-08 14:52:00,2024-11-18 11:59:00,3.0353,2.0163,-0.06,5.5
+8136,Seemannshöft QP-IIIm,Silikat (SiO2),258,2013-02-25 10:06:00,2024-11-18 11:59:00,6.4127,4.386,-0.01,12.0
+8136,Seemannshöft QP-IIIm,spektraler Absorptionskoeffizient (254 nm),48,2010-03-08 14:52:00,2011-11-28 12:21:00,0.0766,0.0196,0.045,0.114
+8136,Seemannshöft QP-IIIm,spektraler Absorptionskoeffizient (436 nm),24,2011-03-07 11:41:00,2011-11-28 12:21:00,-0.0917,0.0012,-0.094,-0.09
+8136,Seemannshöft QP-IIIm,Sulfat (SO4),330,2010-03-08 14:52:00,2024-11-18 11:59:00,117.2424,20.2031,73.0,178.0
+8136,Seemannshöft QP-IIIm,TOC (organischer Kohlenstoff),330,2010-03-08 14:52:00,2024-11-18 11:59:00,8.3509,1.5964,5.2,17.0
+8136,Seemannshöft QP-IIIm,Wassertemperatur,988,2011-04-06 12:21:00,2023-09-04 14:10:00,13.4981,6.8565,0.2,25.9
+8143,"St. Pauli, Landungsbrücken (Strom-km 623,1)",Wassertemperatur,211,1977-01-03 00:00:00,1977-10-31 00:00:00,11.8346,6.7047,-0.1,21.8
+8153,"Teufelsbrück Nordufer (Strom-km 630,1)",Abfiltrierbare Stoffe,386,1959-04-08 12:45:00,1968-07-01 15:20:00,12.2821,5.267,2.0,36.0
+8153,"Teufelsbrück Nordufer (Strom-km 630,1)",Ammonium-Stickstoff (NH4-N),458,1959-04-01 18:05:00,1968-07-01 15:20:00,2.2807,1.616,0.02,8.6
+8153,"Teufelsbrück Nordufer (Strom-km 630,1)",BSB 5 (Zehrung 5) ohne Hemmer,462,1959-04-01 18:05:00,1968-07-01 15:20:00,6.7974,2.5683,1.1,18.0
+8153,"Teufelsbrück Nordufer (Strom-km 630,1)",Calcium (Ca),51,1964-01-27 10:45:00,1968-06-11 12:10:00,68.849,9.5885,48.0,92.0
+8153,"Teufelsbrück Nordufer (Strom-km 630,1)",Chlorid (Cl),467,1959-04-01 18:05:00,1968-07-01 15:20:00,239.7987,94.4167,79.0,610.0
+8153,"Teufelsbrück Nordufer (Strom-km 630,1)",elektrische Leitfähigkeit (25°C),417,1959-04-01 18:05:00,1968-07-01 15:20:00,115.206,40.9721,39.3,261.0
+8153,"Teufelsbrück Nordufer (Strom-km 630,1)",Gesamthärte (Ca + Mg),100,1959-04-13 15:20:00,1968-06-11 12:10:00,3.224,0.5261,2.1,4.7
+8153,"Teufelsbrück Nordufer (Strom-km 630,1)",Kalium (K),20,1959-04-13 15:20:00,1968-05-27 12:30:00,14.355,2.616,10.1,18.0
+8153,"Teufelsbrück Nordufer (Strom-km 630,1)",Magnesium (Mg),51,1964-01-27 10:45:00,1968-06-11 12:10:00,29.4765,8.051,10.0,48.0
+8153,"Teufelsbrück Nordufer (Strom-km 630,1)",Nitrat-Stickstoff (NO3-N),350,1959-04-13 15:20:00,1968-07-01 15:20:00,1.4154,0.5566,0.1,2.8
+8153,"Teufelsbrück Nordufer (Strom-km 630,1)",Nitrit-Stickstoff (NO2-N),165,1959-07-17 09:00:00,1968-07-01 15:20:00,0.0146,0.1162,-0.09,0.52
+8153,"Teufelsbrück Nordufer (Strom-km 630,1)",ortho-Phosphat-Phosphor (o-PO4-P),76,1966-11-25 11:10:00,1968-07-01 15:20:00,0.0825,0.1123,0.0,0.78
+8153,"Teufelsbrück Nordufer (Strom-km 630,1)",pH-Wert,463,1959-04-01 18:05:00,1968-07-01 15:20:00,7.297,0.2868,5.9,8.1
+8153,"Teufelsbrück Nordufer (Strom-km 630,1)",Sauerstoffgehalt,482,1959-04-01 18:05:00,1968-07-01 15:20:00,7.3878,2.5825,1.2,13.9
+8153,"Teufelsbrück Nordufer (Strom-km 630,1)",Sauerstoffsättigung,481,1959-04-01 18:05:00,1968-07-01 15:20:00,64.8524,16.4937,14.0,98.0
+8153,"Teufelsbrück Nordufer (Strom-km 630,1)",Sulfat (SO4),58,1962-02-19 13:00:00,1968-06-11 12:10:00,144.8276,27.3157,79.0,230.0
+8153,"Teufelsbrück Nordufer (Strom-km 630,1)",Wassertemperatur,482,1959-04-01 18:05:00,1968-07-01 15:20:00,10.718,7.1672,-0.4,24.7
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",Abfiltrierbare Stoffe,1014,1959-04-08 12:55:00,1991-12-23 11:10:00,16.6924,9.6744,1.0,74.0
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",Ammonium-Stickstoff (NH4-N),1630,1959-04-01 18:13:00,1991-12-23 11:10:00,1.993,1.327,0.0,8.4
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",BSB 14 (Zehrung 14) ohne Hemmer,287,1986-03-06 12:00:00,1991-12-23 11:10:00,12.5254,3.8246,4.9,28.3
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",BSB 21 (Zehrung 21) ohne Hemmer,284,1986-03-06 12:00:00,1991-12-23 11:10:00,14.5352,4.6926,6.2,55.7
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",BSB 5 (Zehrung 5) ohne Hemmer,1396,1959-04-01 18:13:00,1987-12-30 12:05:00,7.0772,3.0358,1.4,25.9
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",BSB 7 (Zehrung 7) ohne Hemmer,284,1986-06-02 08:35:00,1991-12-23 11:10:00,8.157,2.7226,2.6,20.1
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",Calcium (Ca),64,1964-01-27 10:55:00,1981-12-08 08:10:00,73.4375,14.9283,49.0,115.0
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",Chlorid (Cl),1650,1959-04-01 18:13:00,1991-12-16 12:40:00,202.5248,75.3528,50.0,615.0
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",CSB (chemischer Sauerstoffbedarf),636,1978-01-13 08:45:00,1991-12-09 10:30:00,35.7343,8.034,16.0,87.0
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",DOC (gelöster organischer Kohlenstoff),495,1982-02-04 11:55:00,1991-12-23 11:10:00,10.1299,2.1017,5.5,18.0
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",elektrische Leitfähigkeit (25°C),1578,1959-04-01 18:13:00,1991-12-23 11:10:00,116.9896,29.5451,40.4,275.0
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",Gesamthärte (Ca + Mg),102,1959-04-13 15:30:00,1968-10-21 11:45:00,3.2216,0.5311,2.1,4.6
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",Gesamt-Phosphor (P),703,1978-01-13 08:45:00,1991-12-23 11:10:00,0.2998,0.1337,0.02,1.0
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",Gesamt-Stickstoff (N),699,1978-01-13 08:45:00,1991-12-23 11:10:00,6.8536,1.2589,3.0,11.7
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",Kalium (K),905,1959-04-13 15:30:00,1981-12-28 12:30:00,13.5352,3.0794,4.7,24.9
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",Magnesium (Mg),64,1964-01-27 10:55:00,1981-12-08 08:10:00,27.5672,8.816,10.0,52.0
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",Natrium (Na),10,1964-02-17 15:15:00,1964-12-21 14:05:00,175.1,54.2555,100.0,250.0
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",Nitrat-Stickstoff (NO3-N),1453,1959-04-13 15:30:00,1991-12-23 11:10:00,2.9413,1.4535,0.04,7.1
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",Nitrit-Stickstoff (NO2-N),1341,1959-07-17 09:10:00,1991-12-23 11:10:00,0.0286,0.1205,-0.09,0.81
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",ortho-Phosphat-Phosphor (o-PO4-P),1263,1966-11-25 11:20:00,1991-12-23 11:10:00,0.1095,0.1149,-0.09,1.5
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",pH-Wert,1637,1959-04-01 18:13:00,1991-12-23 11:10:00,7.3545,0.2275,6.0,8.4
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",Sauerstoffgehalt,1656,1959-04-01 18:13:00,1991-12-23 11:10:00,7.419,2.8716,0.9,13.5
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",Sauerstoffsättigung,1647,1959-04-01 18:13:00,1991-12-23 11:10:00,65.6545,19.0055,11.0,106.0
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",Sulfat (SO4),594,1962-02-19 13:10:00,1991-12-09 10:30:00,167.1599,23.8585,77.0,254.0
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",TOC (organischer Kohlenstoff),616,1978-01-13 08:45:00,1991-12-23 11:10:00,13.1104,3.8157,6.4,39.0
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",TON (organischer Stickstoff),49,1978-01-13 08:45:00,1978-12-28 15:20:00,2.3082,1.0828,0.3,4.8
+8154,"Teufelsbrück Strommitte (Strom-km 630,1)",Wassertemperatur,1647,1959-04-01 18:13:00,1991-12-23 11:10:00,11.0834,6.9255,-1.1,25.9
+8155,"Teufelsbrück Südufer (Strom-km 630,1)",Abfiltrierbare Stoffe,387,1959-04-08 13:05:00,1968-07-01 15:40:00,12.1155,5.1081,1.0,38.0
+8155,"Teufelsbrück Südufer (Strom-km 630,1)",Ammonium-Stickstoff (NH4-N),438,1959-04-01 18:22:00,1968-07-01 15:40:00,2.1869,1.5463,0.0,8.4
+8155,"Teufelsbrück Südufer (Strom-km 630,1)",BSB 5 (Zehrung 5) ohne Hemmer,403,1959-04-01 18:22:00,1968-07-01 15:40:00,6.0993,2.3312,1.8,16.6
+8155,"Teufelsbrück Südufer (Strom-km 630,1)",Calcium (Ca),52,1964-01-27 11:05:00,1968-06-11 12:30:00,68.8154,9.7377,48.0,92.0
+8155,"Teufelsbrück Südufer (Strom-km 630,1)",Chlorid (Cl),449,1959-04-01 18:22:00,1968-07-01 15:40:00,238.922,91.9282,82.0,595.0
+8155,"Teufelsbrück Südufer (Strom-km 630,1)",elektrische Leitfähigkeit (25°C),397,1959-04-01 18:22:00,1968-07-01 15:40:00,114.1151,40.465,33.1,270.0
+8155,"Teufelsbrück Südufer (Strom-km 630,1)",Gesamthärte (Ca + Mg),101,1959-04-13 15:40:00,1968-06-11 12:30:00,3.2188,0.5381,2.1,4.9
+8155,"Teufelsbrück Südufer (Strom-km 630,1)",Kalium (K),4,1959-04-13 15:40:00,1959-06-08 13:58:00,11.6,0.9522,11.0,13.0
+8155,"Teufelsbrück Südufer (Strom-km 630,1)",Magnesium (Mg),52,1964-01-27 11:05:00,1968-06-11 12:30:00,29.8365,9.3433,9.0,62.0
+8155,"Teufelsbrück Südufer (Strom-km 630,1)",Nitrat-Stickstoff (NO3-N),349,1959-04-13 15:40:00,1968-07-01 15:40:00,1.3669,0.5493,0.06,2.8
+8155,"Teufelsbrück Südufer (Strom-km 630,1)",Nitrit-Stickstoff (NO2-N),162,1959-07-17 09:18:00,1968-07-01 15:40:00,0.0133,0.1166,-0.09,0.54
+8155,"Teufelsbrück Südufer (Strom-km 630,1)",ortho-Phosphat-Phosphor (o-PO4-P),73,1966-11-25 11:30:00,1968-07-01 15:40:00,0.0536,0.0919,-0.03,0.42
+8155,"Teufelsbrück Südufer (Strom-km 630,1)",pH-Wert,445,1959-04-01 18:22:00,1968-07-01 15:40:00,7.3456,0.2548,6.1,8.2
+8155,"Teufelsbrück Südufer (Strom-km 630,1)",Sauerstoffgehalt,462,1959-04-01 18:22:00,1968-07-01 15:40:00,7.1106,2.708,0.7,14.0
+8155,"Teufelsbrück Südufer (Strom-km 630,1)",Sauerstoffsättigung,460,1959-04-01 18:22:00,1968-07-01 15:40:00,62.6261,17.2753,9.0,107.0
+8155,"Teufelsbrück Südufer (Strom-km 630,1)",Sulfat (SO4),58,1962-02-19 13:20:00,1968-06-11 12:30:00,147.931,30.0017,90.0,252.0
+8155,"Teufelsbrück Südufer (Strom-km 630,1)",Wassertemperatur,462,1959-04-01 18:22:00,1968-07-01 15:40:00,11.1188,6.9415,-0.4,24.7
+8162,"Tonne 133 (Teufelsbrück) - Strom-km 631,5",elektrische Leitfähigkeit (25°C),128,2010-03-08 14:20:00,2015-12-14 11:04:00,93.4273,16.3652,55.9,131.0
+8162,"Tonne 133 (Teufelsbrück) - Strom-km 631,5",pH-Wert,128,2010-03-08 14:20:00,2015-12-14 11:04:00,7.8,0.3097,7.2,9.1
+8162,"Tonne 133 (Teufelsbrück) - Strom-km 631,5",Sauerstoffgehalt,128,2010-03-08 14:20:00,2015-12-14 11:04:00,9.0062,3.1393,2.1,14.3
+8162,"Tonne 133 (Teufelsbrück) - Strom-km 631,5",Sauerstoffsättigung,108,2011-01-11 13:30:00,2015-12-14 11:04:00,81.537,19.5622,25.0,116.0
+8162,"Tonne 133 (Teufelsbrück) - Strom-km 631,5",Wassertemperatur,128,2010-03-08 14:20:00,2015-12-14 11:04:00,12.8133,6.896,0.4,25.1
