@@ -1,122 +1,175 @@
 import streamlit as st
 import pandas as pd
-from core.data_service import get_data
-from components.ui import inject_custom_css, header_section, custom_alert
-from views.overview import render_overview
-from views.demographics import render_demographics
-from views.operations import render_operations
-from views.anomalies import render_anomalies
-from views.data_explorer import render_data_explorer
+import plotly.express as px
+import os
 
-# 1. Page Configuration
-st.set_page_config(
-    page_title="AeroSight: Aviation Analytics Hub",
-    page_icon="✈️",
-    layout="wide",
-    initial_sidebar_state="expanded"
+# Page configuration
+st.set_page_config(page_title="Elbe Monitoring Dashboard", page_icon="🌊", layout="wide")
+
+# --- DATA LOADING ---
+@st.cache_data
+def load_data(file_path):
+    if not os.path.exists(file_path):
+        st.error(f"Datei nicht gefunden: {file_path}")
+        return None
+    try:
+        df = pd.read_csv(file_path)
+        return df
+    except Exception as e:
+        st.error(f"Fehler beim Laden von {file_path}: {e}")
+        return None
+
+# Base path for data
+DATA_DIR = "data"
+
+# Load all required files
+sites_all = load_data(os.path.join(DATA_DIR, "sites_all.csv"))
+wq_summary = load_data(os.path.join(DATA_DIR, "wq_summary.csv"))
+wq_raw = load_data(os.path.join(DATA_DIR, "wq_raw.csv"))
+corrosion_positions = load_data(os.path.join(DATA_DIR, "corrosion_positions.csv"))
+corrosion_rates = load_data(os.path.join(DATA_DIR, "corrosion_rates.csv"))
+# Using the correct filename found in 'ls data'
+measurement_summary = load_data(os.path.join(DATA_DIR, "measurement_summary.csv"))
+
+# Ensure critical data is loaded
+if sites_all is None:
+    st.error("Stationen konnten nicht geladen werden. Bitte prüfen Sie den 'data' Ordner.")
+    st.stop()
+
+# Preprocess dates
+if wq_raw is not None and "timestamp" in wq_raw.columns:
+    wq_raw["timestamp"] = pd.to_datetime(wq_raw["timestamp"], format='mixed')
+
+if corrosion_positions is not None and "measurement_date" in corrosion_positions.columns:
+    corrosion_positions["measurement_date"] = pd.to_datetime(corrosion_positions["measurement_date"], format='mixed')
+
+if wq_summary is not None:
+    if "first_timestamp" in wq_summary.columns:
+        wq_summary["first_timestamp"] = pd.to_datetime(wq_summary["first_timestamp"], format='mixed')
+    if "last_timestamp" in wq_summary.columns:
+        wq_summary["last_timestamp"] = pd.to_datetime(wq_summary["last_timestamp"], format='mixed')
+
+if measurement_summary is not None:
+    if "first_date" in measurement_summary.columns:
+        measurement_summary["first_date"] = pd.to_datetime(measurement_summary["first_date"], format='mixed')
+    if "last_date" in measurement_summary.columns:
+        measurement_summary["last_date"] = pd.to_datetime(measurement_summary["last_date"], format='mixed')
+
+# --- SIDEBAR FILTERS ---
+st.sidebar.header("Filter & Navigation")
+
+# Site selection
+site_options = sites_all[['site_id', 'site_name']].drop_duplicates()
+site_dict = dict(zip(site_options['site_id'], site_options['site_name']))
+selected_site_id = st.sidebar.selectbox(
+    "Station auswählen",
+    options=site_options['site_id'].tolist(),
+    format_func=lambda x: f"{site_dict.get(x, 'Unbekannt')} (ID: {x})"
 )
 
-# 2. Inject Curated Styles
-inject_custom_css()
+# Parameter selection (based on wq_raw)
+if wq_raw is not None and "parameter" in wq_raw.columns:
+    available_params = wq_raw['parameter'].unique().tolist()
+    selected_parameter = st.sidebar.selectbox("Wasserqualität Parameter", options=available_params)
+else:
+    selected_parameter = None
 
-# 3. Retrieve Active Dataset (Synced with Simulator)
-df_raw = get_data()
-
-# 4. SIDEBAR NAVIGATION & GLOBAL FILTERS
-st.sidebar.markdown(
-    '<div style="text-align: center; margin-bottom: 1.5rem;">'
-    '<h1 style="color: white; font-size: 1.8rem; font-weight: 700; margin: 0; letter-spacing: -0.03em;">✈️ AeroSight</h1>'
-    '<p style="color: #94a3b8; font-size: 0.8rem; margin: 0.2rem 0 0 0;">Corporate Analytics & Simulation</p>'
-    '</div>', 
-    unsafe_allow_html=True
-)
-
-st.sidebar.markdown('<p style="color: #64748b; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; margin-bottom: 0.5rem;">Navigation</p>', unsafe_allow_html=True)
-page = st.sidebar.radio(
-    label="Go to Page:",
-    options=[
-        "📊 Executive Overview",
-        "👥 Passenger Demographics",
-        "✈️ Operations & Timeline",
-        "🕵️ AI Insights & Anomalies",
-        "🔍 Search & Bookings Simulator"
-    ],
-    label_visibility="collapsed"
-)
-
-st.sidebar.markdown('<hr style="border-color: rgba(255,255,255,0.08); margin: 1.5rem 0;">', unsafe_allow_html=True)
-st.sidebar.markdown('<p style="color: #64748b; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; margin-bottom: 0.5rem;">Global Filters</p>', unsafe_allow_html=True)
-
-# Filter 1: Continent
-continents_list = ["All Continents"] + sorted(df_raw['Continents'].dropna().unique().tolist())
-selected_continent = st.sidebar.selectbox("Region/Continent:", continents_list)
-
-# Filter 2: Flight Status
-status_list = ["All Statuses", "On Time", "Delayed", "Cancelled"]
-selected_status = st.sidebar.selectbox("Dispatch Status:", status_list)
-
-# Filter 3: Age Range
-min_age = int(df_raw['Age'].min())
-max_age = int(df_raw['Age'].max())
-selected_age_range = st.sidebar.slider(
-    "Passenger Age Range:",
-    min_value=min_age,
-    max_value=max_age,
-    value=(min_age, max_age)
-)
-
-# 5. DYNAMIC FILTERING LOGIC
-df_filtered = df_raw.copy()
-
-# Apply Continent Filter
-if selected_continent != "All Continents":
-    df_filtered = df_filtered[df_filtered['Continents'] == selected_continent]
-
-# Apply Status Filter
-if selected_status != "All Statuses":
-    df_filtered = df_filtered[df_filtered['Flight Status'] == selected_status]
-
-# Apply Age Range Filter
-df_filtered = df_filtered[
-    (df_filtered['Age'] >= selected_age_range[0]) & 
-    (df_filtered['Age'] <= selected_age_range[1])
-]
-
-# Sidebar Footer Context
-st.sidebar.markdown('<hr style="border-color: rgba(255,255,255,0.08); margin: 2rem 0 1rem 0;">', unsafe_allow_html=True)
-st.sidebar.markdown(
-    f'<div style="color: #64748b; font-size: 0.75rem;">'
-    f'Active Scope: <strong>{len(df_filtered):,}</strong> / {len(df_raw):,} flights<br>'
-    f'Version: <strong>2.1 (Production)</strong><br>'
-    f'Local Time: <strong>2026-05-26</strong>'
-    f'</div>',
-    unsafe_allow_html=True
-)
-
-# 6. APP RENDER ORCHESTRATOR
-# Top Banner
-header_section(
-    title="AeroSight Flight Operations Platform",
-    subtitle="Interactive Corporate Intelligence, Demographic Profiling, and Real-Time Dispatch Simulations"
-)
-
-# Empty State Check
-if df_filtered.empty:
-    st.markdown('<div style="height: 2rem;"></div>', unsafe_allow_html=True)
-    custom_alert(
-        title="⚠️ Empty Data State Detected",
-        text="The current combination of global filters (Continent, Dispatch Status, and Age Range) yields exactly zero matching flight records. Please adjust your sidebar settings to regain operational metrics.",
-        alert_type="warning"
+# Date range selection
+if wq_raw is not None and "timestamp" in wq_raw.columns:
+    min_date = wq_raw["timestamp"].min().date()
+    max_date = wq_raw["timestamp"].max().date()
+    date_range = st.sidebar.date_input(
+        "Zeitraum (Wasserqualität)",
+        value=(min_date, max_date),
+        min_value=min_date,
+        max_value=max_date
     )
 else:
-    # Router
-    if page == "📊 Executive Overview":
-        render_overview(df_filtered)
-    elif page == "👥 Passenger Demographics":
-        render_demographics(df_filtered)
-    elif page == "✈️ Operations & Timeline":
-        render_operations(df_filtered)
-    elif page == "🕵️ AI Insights & Anomalies":
-        render_anomalies(df_filtered)
-    elif page == "🔍 Search & Bookings Simulator":
-        render_data_explorer(df_filtered)
+    date_range = (None, None)
+
+# --- MAIN UI ---
+st.title("🌊 Elbe Monitoring Dashboard")
+st.markdown("### Wasserqualität und Stahlkorrosion an Flussbauwerken")
+
+tabs = st.tabs(["📊 Übersicht", "💧 Wasserqualität", "🏗️ Korrosion", "📋 Zusammenfassung"])
+
+# 1. Tab: Übersicht
+with tabs[0]:
+    st.header("Messstationen")
+    st.dataframe(sites_all, use_container_width=True, hide_index=True)
+
+# 2. Tab: Wasserqualität
+with tabs[1]:
+    st.header(f"Zeitreihe: {selected_parameter}")
+    
+    if wq_raw is not None and selected_parameter:
+        # Filter data
+        mask = (
+            (wq_raw["site_id"] == selected_site_id) &
+            (wq_raw["parameter"] == selected_parameter)
+        )
+        
+        # Apply date filter if valid
+        if isinstance(date_range, tuple) and len(date_range) == 2:
+            mask &= (wq_raw["timestamp"].dt.date >= date_range[0]) & (wq_raw["timestamp"].dt.date <= date_range[1])
+            
+        df_filtered = wq_raw.loc[mask].sort_values("timestamp")
+        
+        if not df_filtered.empty:
+            unit = df_filtered['unit'].iloc[0] if 'unit' in df_filtered.columns else "Wert"
+            fig = px.line(
+                df_filtered, 
+                x="timestamp", 
+                y="value", 
+                title=f"{selected_parameter} - Verlauf",
+                labels={"value": f"{selected_parameter} ({unit})", "timestamp": "Zeitpunkt"},
+                markers=True
+            )
+            st.plotly_chart(fig, use_container_width=True)
+            
+            with st.expander("Rohdaten anzeigen"):
+                st.dataframe(df_filtered, use_container_width=True)
+        else:
+            st.warning("Keine Daten für die gewählte Kombination aus Station, Parameter und Zeitraum gefunden.")
+    else:
+        st.info("Bitte wählen Sie eine Station und einen Parameter in der Sidebar aus.")
+
+# 3. Tab: Korrosion
+with tabs[2]:
+    st.header("Wanddicken-Messungen")
+    
+    if corrosion_positions is not None:
+        df_corr = corrosion_positions[corrosion_positions["site_id"] == selected_site_id]
+        
+        if not df_corr.empty:
+            # Latest measurements
+            latest_date = df_corr["measurement_date"].max()
+            df_corr_latest = df_corr[df_corr["measurement_date"] == latest_date]
+            
+            st.subheader(f"Aktuelle Messung vom {latest_date.date()}")
+            
+            fig_corr = px.bar(
+                df_corr_latest,
+                x="position_name",
+                y="actual_wall_thickness",
+                title="Wanddicke pro Messposition",
+                labels={"actual_wall_thickness": "Wanddicke (mm)", "position_name": "Position"},
+                color="actual_wall_thickness",
+                color_continuous_scale="Viridis"
+            )
+            st.plotly_chart(fig_corr, use_container_width=True)
+            
+            with st.expander("Alle Messungen an dieser Station"):
+                st.dataframe(df_corr, use_container_width=True)
+        else:
+            st.warning(f"Keine Korrosionsdaten für Station ID {selected_site_id} ({site_dict.get(selected_site_id)}) gefunden.")
+    else:
+        st.error("Korrosionsdaten konnten nicht geladen werden.")
+
+# 4. Tab: Zusammenfassung
+with tabs[3]:
+    st.header("Wasserqualität: Statistiken")
+    if wq_summary is not None:
+        st.dataframe(wq_summary, use_container_width=True, hide_index=True)
+    else:
+        st.error("Zusammenfassungsdaten konnten nicht geladen werden.")
