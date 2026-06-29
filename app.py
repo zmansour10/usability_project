@@ -702,8 +702,13 @@ with tab_corr:
                     range=[0, max(latest["pct"].max() * 1.05, 115)],
                     ticksuffix=" %",
                 ),
-                yaxis=dict(gridcolor="rgba(0,0,0,0)", zeroline=False),
-                height=max(400, len(latest) * 34),
+                yaxis=dict(
+                    gridcolor="rgba(0,0,0,0)", zeroline=False,
+                    # show at most ~12 bars at once; user scrolls inside the chart
+                    range=[len(latest) - 12.5, len(latest) - 0.5]
+                    if len(latest) > 12 else None,
+                ),
+                height=480,
                 showlegend=False,
                 **{k: v for k, v in PLOTLY_LAYOUT.items()
                    if k not in ("title", "xaxis", "yaxis", "legend")})
