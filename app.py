@@ -645,34 +645,81 @@ with tab_corr:
                 f'<div class="lead" style="margin-top:6px">Datenqualität – {dq_txt}</div>'
                 f'</div>', unsafe_allow_html=True)
 
-            # Balken: Soll vs. gemessen; Farbe = Befund "Durchrostung" (nicht %)
-            latest = latest.sort_values("actual_wall_thickness")
+            # Restwanddicke % je Position – farbcodiert nach Gesundheitszustand
+            # Sortierung: kritischste Positionen oben (aufsteigend nach %)
+            latest = latest.sort_values("pct", ascending=True)
             holes_arr = latest["number_of_holes"].fillna(0)
-            bar_colors = [TOKENS["crit"] if h > 0 else TOKENS["ok"] for h in holes_arr]
+
+            def _pct_color(pct, holes):
+                if holes > 0:
+                    return TOKENS["crit"]          # Durchrostung → immer rot
+                if pct < 80:
+                    return TOKENS["crit"]          # < 80 % → kritisch
+                if pct < 100:
+                    return TOKENS["warn"]          # 80–99 % → Warnung
+                return TOKENS["ok"]                # ≥ 100 % → OK
+
+            bar_colors = [_pct_color(p, h)
+                          for p, h in zip(latest["pct"], holes_arr)]
+
             fig = go.Figure()
             fig.add_trace(go.Bar(
-                y=latest["position_name"].astype(str), x=latest["planned_wall_thickness"],
-                name="Soll", orientation="h",
-                marker=dict(color=TOKENS["line"]),
-                hovertemplate="Soll: %{x:.1f} mm<extra></extra>"))
-            fig.add_trace(go.Bar(
-                y=latest["position_name"].astype(str), x=latest["actual_wall_thickness"],
-                name="Gemessen", orientation="h",
-                marker=dict(color=bar_colors),
-                customdata=np.stack([latest["pct"], holes_arr,
-                                     latest["data_quality"].astype(str)], axis=-1),
-                hovertemplate=("Gemessen: %{x:.1f} mm<br>Restwanddicke: %{customdata[0]:.0f} %"
-                               "<br>Löcher: %{customdata[1]:.0f}<br>Datenqualität: "
-                               "%{customdata[2]}<extra></extra>")))
-            fig.add_vline(x=0)  # gemeinsame Basislinie (keine Achsen-Täuschung)
+                y=latest["position_name"].astype(str),
+                x=latest["pct"].round(1),
+                name="Restwanddicke",
+                orientation="h",
+                marker=dict(color=bar_colors, opacity=0.88,
+                            line=dict(width=0)),
+                customdata=np.stack([
+                    latest["actual_wall_thickness"],
+                    latest["planned_wall_thickness"],
+                    holes_arr,
+                    latest["data_quality"].astype(str),
+                ], axis=-1),
+                hovertemplate=(
+                    "<b>%{y}</b><br>"
+                    "Restwanddicke: <b>%{x:.0f} %</b><br>"
+                    "Gemessen: %{customdata[0]:.1f} mm · Soll: %{customdata[1]:.1f} mm<br>"
+                    "Löcher: %{customdata[2]:.0f} · Datenqualität: %{customdata[3]}"
+                    "<extra></extra>"),
+            ))
+
+            # Referenzlinie bei 100 % (= Soll erfüllt)
+            fig.add_vline(
+                x=100,
+                line_dash="dash", line_color=TOKENS["ink"], line_width=1.5,
+                annotation_text="Sollwert",
+                annotation_position="top right",
+                annotation_font=dict(size=11, color=TOKENS["muted"]),
+            )
+
             fig.update_layout(
-                barmode="overlay",
-                title="Wanddicke je Position · Soll vs. gemessen (rot = Durchrostung)",
-                xaxis_title="Wanddicke (mm)", yaxis_title=None,
-                height=max(380, len(latest) * 32),
+                title="Restwanddicke je Position (% des Sollwerts)",
+                xaxis_title="Restwanddicke (%)",
+                yaxis_title=None,
+                xaxis=dict(
+                    gridcolor=TOKENS["line"], zeroline=False,
+                    range=[0, max(latest["pct"].max() * 1.05, 115)],
+                    ticksuffix=" %",
+                ),
+                yaxis=dict(gridcolor="rgba(0,0,0,0)", zeroline=False),
+                height=max(400, len(latest) * 34),
+                showlegend=False,
                 **{k: v for k, v in PLOTLY_LAYOUT.items()
-                   if k not in ("title", "xaxis", "yaxis")})
+                   if k not in ("title", "xaxis", "yaxis", "legend")})
             st.plotly_chart(fig, use_container_width=True)
+
+            # Farblegende unter dem Chart
+            st.markdown(
+                f'<div style="display:flex;gap:18px;font-size:.82rem;'
+                f'color:{TOKENS["muted"]};margin-top:-8px;padding-left:4px">'
+                f'<span><span style="display:inline-block;width:12px;height:12px;'
+                f'border-radius:3px;background:{TOKENS["ok"]};margin-right:5px"></span>≥ 100 % OK</span>'
+                f'<span><span style="display:inline-block;width:12px;height:12px;'
+                f'border-radius:3px;background:{TOKENS["warn"]};margin-right:5px"></span>80–99 % Warnung</span>'
+                f'<span><span style="display:inline-block;width:12px;height:12px;'
+                f'border-radius:3px;background:{TOKENS["crit"]};margin-right:5px"></span>< 80 % oder Durchrostung</span>'
+                f'</div>', unsafe_allow_html=True)
 
             # Details-on-demand: aufklappbare Detailtabelle
             with st.expander("Detailwerte der letzten Messung anzeigen"):
