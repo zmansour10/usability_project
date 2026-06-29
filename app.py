@@ -841,3 +841,279 @@ with tab_sum:
                                         "corrosion_site_name": "Korrosions-Standort",
                                         "wq_site_name": "WQ-Station"})
 
+
+# ── TAB 5: ZEITREIHENANALYSE ──────────────────────────────────────────────
+with tab_ts:
+    st.markdown('<div class="h2">Zeitreihenanalyse · Trends & Saisonalität</div>',
+                unsafe_allow_html=True)
+    st.markdown(
+        '<div class="lead">Langfristige Entwicklungen, saisonale Muster, '
+        'Dekaden-Vergleiche, Parameter-Korrelationen der Wasserqualitätsdaten '
+        'sowie zeitliche Entwicklung der Bauwerkskorrosion.</div>',
+        unsafe_allow_html=True)
+
+    if data["wq_raw"].empty or not data["top_10_params"]:
+        st.info("Zu wenig Wasserqualitätsdaten für eine Zeitreihenanalyse.")
+    else:
+        ts_param = st.selectbox(
+            "Parameter wählen",
+            data["top_10_params"],
+            key="ts_param",
+            help="Alle WQ-Abschnitte (Trend, Saisonalität, Dekaden) "
+                 "beziehen sich auf diesen Parameter.",
+        )
+        wq_all = data["wq_raw"][data["wq_raw"]["parameter"] == ts_param].copy()
+        wq_all["Jahr"] = wq_all["timestamp"].dt.year
+        wq_all["Monat"] = wq_all["timestamp"].dt.month
+        ts_unit = (wq_all["unit"].dropna().iloc[0]
+                   if "unit" in wq_all.columns and not wq_all["unit"].dropna().empty
+                   else "")
+
+        # ═══════════════════════════════════════════════════════════════
+        # SECTION 1  ▸  LANGZEITTREND — Faceted Sparklines
+        # ═══════════════════════════════════════════════════════════════
+        st.markdown('<div class="h3">Langzeittrend · Jahresmittel pro Station</div>',
+                    unsafe_allow_html=True)
+
+        yearly = wq_all.groupby(["site_name", "Jahr"])["value"].mean().reset_index()
+
+        if not yearly.empty:
+            stations = sorted(yearly["site_name"].unique())
+
+            trend_info = []
+            for stn in stations:
+                sy = yearly[yearly["site_name"] == stn].sort_values("Jahr")
+                if len(sy) >= 3:
+                    coeffs = np.polyfit(sy["Jahr"], sy["value"], 1)
+                    trend_info.append({"Station": stn, "slope": coeffs[0],
+                                       "n_years": len(sy)})
+            trend_df = pd.DataFrame(trend_info) if trend_info else pd.DataFrame()
+
+            if not trend_df.empty:
+                best_up = trend_df.loc[trend_df["slope"].idxmax()]
+                best_down = trend_df.loc[trend_df["slope"].idxmin()]
+                most_stable = trend_df.loc[trend_df["slope"].abs().idxmin()]
+                st.markdown(
+                    '<div class="kpi-row">'
+                    + kpi_card("Stärkster Anstieg",
+                               best_up["Station"][:24],
+                               f"{best_up['slope']:+.3f} {ts_unit}/a")
+                    + kpi_card("Stärkster Rückgang",
+                               best_down["Station"][:24],
+                               f"{best_down['slope']:+.3f} {ts_unit}/a")
+                    + kpi_card("Stabilste Station",
+                               most_stable["Station"][:24],
+                               f"{most_stable['slope']:+.3f} {ts_unit}/a")
+                    + '</div>',
+                    unsafe_allow_html=True)
+
+            fig_trend = px.line(
+                yearly, x="Jahr", y="value", facet_col="site_name",
+                facet_col_wrap=3,
+                labels={"value": f"{ts_param} ({ts_unit})", "Jahr": ""},
+                markers=True,
+            )
+            fig_trend.update_traces(
+                line_color=TOKENS["brand"], marker_size=4, line_width=1.5,
+                hovertemplate="%{x}<br>%{y:.2f} " + ts_unit + "<extra></extra>")
+
+            for i, stn in enumerate(stations):
+                sy = yearly[yearly["site_name"] == stn].sort_values("Jahr")
+                if len(sy) >= 3:
+                    coeffs = np.polyfit(sy["Jahr"], sy["value"], 1)
+                    trend_y = np.polyval(coeffs, sy["Jahr"])
+                    fig_trend.add_trace(
+                        go.Scatter(
+                            x=sy["Jahr"], y=trend_y, mode="lines",
+                            line=dict(color=TOKENS["crit"], width=1.5,
+                                      dash="dash"),
+                            showlegend=False, hoverinfo="skip",
+                        ),
+                        row=(i // 3) + 1, col=(i % 3) + 1,
+                    )
+
+            fig_trend.update_layout(
+                height=max(300, (len(stations) + 2) // 3 * 220 + 80),
+                showlegend=False,
+                **{k: v for k, v in PLOTLY_LAYOUT.items()
+                   if k not in ("title", "xaxis", "yaxis", "legend")})
+            fig_trend.update_xaxes(gridcolor=TOKENS["line"], dtick=10)
+            fig_trend.update_yaxes(gridcolor=TOKENS["line"])
+            fig_trend.for_each_annotation(
+                lambda a: a.update(text=a.text.split("=")[-1][:28]))
+            st.plotly_chart(fig_trend, use_container_width=True)
+            st.caption("Jeder Facet = Jahresmittel einer Station. "
+                       "Rote gestrichelte Linie = linearer Trend.")
+
+            if not trend_df.empty:
+                rising = (trend_df["slope"] > 0).sum()
+                falling = (trend_df["slope"] < 0).sum()
+                kernaussage(
+                    f"{ts_param}: {rising} Station(en) zeigen einen "
+                    f"steigenden, {falling} einen fallenden Langzeittrend.")
+        else:
+            st.info("Keine Jahresmittel berechenbar.")
+
+        st.divider()
+
+        # ═══════════════════════════════════════════════════════════════
+        # SECTION 2  ▸  SAISONALITÄT — Monatliche Boxplots
+        # ═══════════════════════════════════════════════════════════════
+        st.markdown('<div class="h3">Saisonalität · Monatsverteilung</div>',
+                    unsafe_allow_html=True)
+
+        months_de = ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun",
+                     "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"]
+
+        if len(wq_all) >= 24:
+            fig_season = go.Figure()
+            for m in range(1, 13):
+                mv = wq_all[wq_all["Monat"] == m]["value"]
+                if mv.empty:
+                    continue
+                fig_season.add_trace(go.Box(
+                    y=mv, name=months_de[m - 1],
+                    marker_color=TOKENS["brand"],
+                    line_color=TOKENS["ink"],
+                    fillcolor="rgba(11,110,153,0.18)",
+                    boxmean=True,
+                    hovertemplate="%{x}<br>%{y:.2f} " + ts_unit + "<extra></extra>",
+                ))
+            fig_season.update_layout(
+                title=f"Saisonales Muster · {ts_param} (alle Stationen)",
+                yaxis_title=f"{ts_param} ({ts_unit})",
+                xaxis_title=None,
+                height=400, showlegend=False,
+                **{k: v for k, v in PLOTLY_LAYOUT.items()
+                   if k not in ("title", "xaxis", "yaxis", "legend")})
+            fig_season.update_yaxes(gridcolor=TOKENS["line"], zeroline=False)
+            fig_season.update_xaxes(gridcolor="rgba(0,0,0,0)")
+            st.plotly_chart(fig_season, use_container_width=True)
+
+            monthly_med = wq_all.groupby("Monat")["value"].median()
+            if not monthly_med.empty:
+                hi_m = int(monthly_med.idxmax())
+                lo_m = int(monthly_med.idxmin())
+                amp = monthly_med.max() - monthly_med.min()
+                kernaussage(
+                    f"{ts_param} zeigt die höchsten Werte im "
+                    f"{months_de[hi_m - 1]} (Median {monthly_med.max():.2f} "
+                    f"{ts_unit}), die niedrigsten im {months_de[lo_m - 1]} "
+                    f"(Median {monthly_med.min():.2f} {ts_unit}). "
+                    f"Saisonale Amplitude: {amp:.2f} {ts_unit}.")
+        else:
+            st.info("Zu wenige Daten für eine saisonale Analyse "
+                    "(mindestens 24 Messwerte benötigt).")
+
+        st.divider()
+
+        # ═══════════════════════════════════════════════════════════════
+        # SECTION 4  ▸  PARAMETER-KORRELATION
+        # ═══════════════════════════════════════════════════════════════
+        st.markdown('<div class="h3">Parameter-Korrelation</div>',
+                    unsafe_allow_html=True)
+        st.markdown(
+            '<div class="lead">Korrelationen zwischen WQ-Parametern an einer '
+            'Station – Heatmap, Scatterplot-Matrix und rollende Korrelation '
+            'im Zeitverlauf (basierend auf Monatsmitteln).</div>',
+            unsafe_allow_html=True)
+
+        corr_stations = sorted(data["wq_raw"]["site_name"].dropna().unique())
+        corr_station = st.selectbox("Station", corr_stations,
+                                    key="ts_corr_station")
+        corr_params = st.multiselect(
+            "Parameter (2–4 wählen)",
+            data["top_10_params"],
+            default=data["top_10_params"][:4],
+            max_selections=4,
+            key="ts_corr_params",
+        )
+
+        if len(corr_params) >= 2:
+            site_wq = data["wq_raw"][
+                (data["wq_raw"]["site_name"] == corr_station)
+                & (data["wq_raw"]["parameter"].isin(corr_params))
+            ].copy()
+
+            if not site_wq.empty:
+                # Monatsmittel – viel mehr gemeinsame Zeitstempel als
+                # tagesgenaues dropna()
+                site_wq["YM"] = site_wq["timestamp"].dt.to_period("M")
+                piv_m = site_wq.pivot_table(
+                    index="YM", columns="parameter",
+                    values="value", aggfunc="mean")
+                # mindestens 2 gültige Werte pro Monat
+                piv_m = piv_m.dropna(thresh=2)
+                # nur ausgewählte Params, in gewählter Reihenfolge
+                avail_params = [p for p in corr_params if p in piv_m.columns]
+                piv_m = piv_m[avail_params]
+
+                n_months = len(piv_m)
+                if n_months >= 6 and len(avail_params) >= 2:
+
+                    # ── 4a: Korrelations-Heatmap ─────────────────────
+                    corr_mat = piv_m.corr(method="pearson")
+                    labels = [c[:22] for c in corr_mat.columns]
+
+                    fig_heat = go.Figure(go.Heatmap(
+                        z=corr_mat.values,
+                        x=labels, y=labels,
+                        zmin=-1, zmax=1,
+                        colorscale=[
+                            [0.0, TOKENS["crit"]],
+                            [0.5, "#FFFFFF"],
+                            [1.0, TOKENS["brand"]],
+                        ],
+                        colorbar=dict(title="Pearson r", thickness=14),
+                        text=corr_mat.round(2).astype(str).values,
+                        texttemplate="%{text}",
+                        hovertemplate="%{y}<br>%{x}<br>r = %{z:.3f}"
+                                      "<extra></extra>",
+                    ))
+                    fig_heat.update_layout(
+                        title=f"Korrelations-Heatmap · {corr_station} "
+                              f"(Monatsmittel, n = {n_months})",
+                        height=max(300, len(avail_params) * 90 + 80),
+                        xaxis=dict(tickangle=-30, gridcolor="rgba(0,0,0,0)"),
+                        yaxis=dict(gridcolor="rgba(0,0,0,0)"),
+                        **{k: v for k, v in PLOTLY_LAYOUT.items()
+                           if k not in ("title", "xaxis", "yaxis", "legend")})
+                    st.plotly_chart(fig_heat, use_container_width=True)
+
+                    # ── Pearson-Tabelle + Kernaussage ─────────────────
+                    with st.expander("Alle Korrelationskoeffizienten (Pearson)"):
+                        st.dataframe(
+                            corr_mat.round(3),
+                            use_container_width=True,
+                            column_config={
+                                c: st.column_config.NumberColumn(format="%.3f")
+                                for c in corr_mat.columns})
+
+                    upper2 = corr_mat.where(
+                        np.triu(np.ones(corr_mat.shape, dtype=bool), k=1))
+                    stacked2 = upper2.stack()
+                    if not stacked2.empty:
+                        best = stacked2.abs().idxmax()
+                        r_val = upper2.loc[best[0], best[1]]
+                        strength = ("stark" if abs(r_val) > 0.7
+                                    else "mäßig" if abs(r_val) > 0.4
+                                    else "schwach")
+                        dir_c = "positiv" if r_val > 0 else "negativ"
+                        kernaussage(
+                            f"Stärkste Korrelation an {corr_station!r}: "
+                            f"**{best[0]}** \u2194 **{best[1]}** "
+                            f"(r\u202f=\u202f{r_val:+.3f}, "
+                            f"{strength} {dir_c}, "
+                            f"n\u202f=\u202f{n_months} Monatsmittel).")
+                else:
+                    st.warning(
+                        f"Nur {n_months} gemeinsame Monatsmittel für "
+                        f"{len(avail_params)} Parameter – zu wenig für eine "
+                        "belastbare Korrelation (mind. 6 nötig).")
+            else:
+                st.info("Keine Daten für diese Station/Parameter-Kombination.")
+        else:
+            st.info("Bitte mindestens 2 Parameter wählen.")
+
+        st.divider()
+
