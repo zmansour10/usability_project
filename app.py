@@ -646,8 +646,11 @@ with tab_corr:
                 f'</div>', unsafe_allow_html=True)
 
             # Restwanddicke % je Position – farbcodiert nach Gesundheitszustand
-            # Sortierung: kritischste Positionen oben (aufsteigend nach %)
+            # Sortierung: kritischste Positionen zuerst (aufsteigend nach %)
             latest = latest.sort_values("pct", ascending=True)
+            _MAX_BARS = 15
+            _hidden = max(0, len(latest) - _MAX_BARS)
+            latest = latest.head(_MAX_BARS)          # zeige nur die _MAX_BARS kritischsten
             holes_arr = latest["number_of_holes"].fillna(0)
 
             def _pct_color(pct, holes):
@@ -702,17 +705,19 @@ with tab_corr:
                     range=[0, max(latest["pct"].max() * 1.05, 115)],
                     ticksuffix=" %",
                 ),
-                yaxis=dict(
-                    gridcolor="rgba(0,0,0,0)", zeroline=False,
-                    # show at most ~12 bars at once; user scrolls inside the chart
-                    range=[len(latest) - 12.5, len(latest) - 0.5]
-                    if len(latest) > 12 else None,
-                ),
-                height=480,
+                yaxis=dict(gridcolor="rgba(0,0,0,0)", zeroline=False),
+                height=min(480, max(260, len(latest) * 32 + 60)),
                 showlegend=False,
                 **{k: v for k, v in PLOTLY_LAYOUT.items()
                    if k not in ("title", "xaxis", "yaxis", "legend")})
             st.plotly_chart(fig, use_container_width=True)
+            if _hidden > 0:
+                st.markdown(
+                    f'<div style="font-size:.82rem;color:{TOKENS["muted"]};'
+                    f'margin-top:-6px;padding-left:4px">'
+                    f'⚠ {_hidden} weitere Position(en) mit höherer Restwanddicke ausgeblendet – '
+                    f'alle Werte in der Detailtabelle unten sichtbar.</div>',
+                    unsafe_allow_html=True)
 
             # Farblegende unter dem Chart
             st.markdown(
