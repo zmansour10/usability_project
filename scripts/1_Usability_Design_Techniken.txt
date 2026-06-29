@@ -1,0 +1,429 @@
+1) Usability Design Techniken
+
+--- PAGE 1 ---
+[Image Description: A woman looking directly at the camera with a slightly confused or overwhelmed expression. Over her head is an arc connecting various everyday objects: a teapot, a chair, a smartphone, a house, a car, and a television.]
+Title: Usability Design Techniken
+Quelle: Gemini Nano
+
+--- PAGE 2 ---
+[Image Description: A flowchart showing 6 numbered steps in a process. 1: Usability Design Techniques (icon: pencil and ruler). 2: HCI & Interaction Design (icon: hand tapping screen). 3: Data Visualisation (icon: pie chart). 4: Usability (icon: lightbulb). 5: Interaction Principles (icon: balance scale). 6: Evaluation (icon: person with a checkmark).]
+Topics covered:
+- Designprozess (Wasserfallmodell, Iteratives Design, Spiralmodell, Nutzerzentriertes Design)
+- Anforderungsanalyse (Methoden der Datenerhebung, Nutzeranalyse, Aufgabenanalyse, Domänenanalyse, Software Requirements Specifications (SRS))
+- Prototyping (Was ist ein Prototyp?, Vorteile des Prototyping, Prototyp Fidelity, Prototypen)
+- Anhang
+
+--- PAGE 3 ---
+[Image Description: A diagram of the Waterfall Model (Wasserfallmodell) showing a downward, step-by-step progression through boxes: Requirements specification -> Architectural design -> Detailed design -> Implementation and unit testing -> Integration and testing -> Operation and maintenance.]
+Designprozess: Wasserfallmodell
+- Traditioneller Softwareentwicklungsprozess
+- Jede Stufe besitzt eine eigene Validierung
+- Größte Verbesserung: Erst denken, dann programmieren
+(Benington, 1983)
+
+--- PAGE 4 ---
+Vorteile des Wasserfallmodells:
+- Einfach und intuitiv verständlich
+- Für jede Phase klare Meilensteine und Überprüfungsprozesse
+- Sequenzielle, überschneidungsfreie Phasen
+- Geeignet für kleinere Projekte mit stabilen Anforderungen
+
+Nachteile des Wasserfallmodells:
+- Rückschritte in frühere Phasen sind kaum möglich
+- Funktionierende Software entsteht erst spät im Lebenszyklus
+- Hohes Risiko bei Änderungen der Anforderungen
+- Ungeeignet für komplexe, objektorientierte oder langfristige Projekte
+(Benington, 1983)
+
+--- PAGE 5 ---
+[Image Description: A cyclical diagram illustrating Iterative Design. Arrows form a continuous loop connecting three phases: Design -> Implementierung -> Evaluation -> Design. Text notes: "first imagining it -> design", "then realizing it physically -> implementation", "then testing it -> evaluation".]
+Designprozess: Iteratives Design
+Zentrales Element des Usability Engineerings
+- Zyklischer Prozess aus drei Phasen: Design (Entwurf), Implementierung (Umsetzung), Evaluation (Bewertung)
+- Wiederholte Durchläufe des Design-Zyklusses
+Häufige Fehlanwendung:
+- Jede Iteration wird als vollständiges Release behandelt.
+- Evaluation erfolgt erst durch Kundenbeschwerden.
+- Das eigentliche Ziel – frühzeitiges Feedback – wird verfehlt.
+(Nielsen Norman Group, 2024)
+
+--- PAGE 6 ---
+[Image Description: The Spiral Model diagram showing a spiral starting from the center and expanding outward across three axes labeled Design, Implementierung, and Evaluation. The spiral indicates multiple passes through these phases.]
+Designprozess: Spiralmodell
+- Frühe Iterationen: kostengünstige Prototypen parallel, um Designalternativen zu testen
+- Spätere Iterationen: aufwendigere Prototypen ... erst wenn das Risiko grober Fehler minimiert ist
+- Mehr Iterationen -> bessere Benutzeroberflächen
+- Nur ausgereifte Lösungen werden freigegeben
+(Boehm, 1988)
+
+--- PAGE 7 ---
+[Image Description: A diagram for User-centered design. In the center is an icon of a 'User'. Surrounding the user is a circular process containing the phases: Research, Concept, Design, Develop. Between the user and the outer circle are iterative feedback loops labeled 'Test Analysis'. An arrow pointing out from 'Research' leads to 'Release'.]
+Designprozess: Nutzerzentriertes Design (User-centered design)
+- Iteratives, prototypengestütztes Design
+- Früher Fokus auf den User und seine Aufgaben:
+  - User Analyse: Wer sind die Nutzer?
+  - Task Analyse: Was sind ihre Aufgaben?
+- Einbeziehung der Nutzer als Tester, Berater und manchmal auch als Designer
+- Kontinuierliche Evaluation:
+  - Nutzer werden in jede Iteration mit einbezogen
+  - Jeder Prototyp wird in irgendeiner Form evaluiert
+(ISO 9241-210, 2019)
+
+--- PAGE 8 ---
+Review Fragen (CPUX-F Öffentliche Prüfungsfragen)
+Welche der folgenden Aussagen ist KEIN menschzentriertes Qualitätsziel für einen Geldautomaten der nächsten Generation?
+a) Die Benutzer müssen in der Lage sein, Geld doppelt so schnell wie bisher abzuheben.
+b) Die Benutzer müssen ein Gefühl der absoluten Privatsphäre haben, wenn sie den Geldautomaten benutzen.
+c) Nur Benutzer mit einer echten Bankkarte dürfen Geld abheben können. Gefälschte oder gestohlene Bankkarten müssen vom Geldautomaten einbehalten werden.
+d) Blinde Benutzer müssen in der Lage sein, ohne fremde Hilfe Geld abzuheben.
+e) Die Benutzer müssen in der Lage sein, mit jeder gültigen nationalen oder internationalen Bankkarte Geld abzuheben.
+f) Benutzer, die eine Quittung anfordern, müssen diese verstehen können.
+
+--- PAGE 9 ---
+Review Fragen
+Die ersten vier Aktivitäten zur Entwicklung menschenzentrierter interaktiver Systeme sind 1. Planung, 2. Analyse, 3. Nutzungsanforderungen und 4. Gestaltungslösungen entwickeln. Was ist die nächste Aktivität?
+a) Das System in Betrieb setzen.
+b) Das System den Benutzern zur Kommentierung vorstellen.
+c) Das System dem Führungsteam vorstellen.
+d) Die Nutzungsanforderungen an die Gestaltungslösungen anpassen.
+e) Personas und Szenarien schreiben.
+f) Evaluieren der Gestaltungslösungen anhand der Nutzungsanforderungen.
+
+--- PAGE 10 ---
+Anforderungsanalyse
+Sammeln von Informationen über den Nutzer und seine Aufgaben:
+- Nutzeranalyse: Identifizierung der Benutzerklassen. Wer ist der User?
+- Aufgabenanalyse: Erkennung der Benutzeraufgaben. Was sind die Aufgaben, die erledigt werden müssen?
+- Domänenanalyse: Finden der Entitäten und Beziehungen in der Domäne. In welchem Kontext arbeitet der Nutzer (Menschen und Dinge)?
+(Preece et al., 2015)
+
+--- PAGE 11 ---
+[Image Description: Three hand-drawn cartoons illustrating data collection methods. 1. User Observation: A person throws a crumpled paper into a bin while an observer watches. 2. Focus Groups: Four stick figures standing around a table, actively discussing and gesturing. 3. Contextual Interviews: An interviewer holds a microphone to a seated interviewee who is gesturing with a finger up.]
+Methoden der Datenerhebung
+- Nutzerbeobachtung: Ein Beobachter beobachtet Nutzer bei der Ausführung von Aufgaben im Zusammenhang mit dem interaktiven System. (Meister-Schüler-Modell)
+- Fokusgruppen: Eine gezielte Diskussion, in der ein Moderator eine Gruppe von Teilnehmern durch eine Reihe von Fragen zu einem bestimmten Thema führt.
+- Kontextuelle Interviews: Ein Interviewer befragt einen Nutzer an dessen Arbeitsplatz zu den gegenwärtigen Abläufen im Hinblick auf das geplante interaktive System.
+(Preece et al., 2015)
+
+--- PAGE 12 ---
+Methoden: Interviews
+- Geschlossene Fragen: Erfordern eine Antwort aus einer vorgegebenen Auswahl an Alternativen, oft einfach "Ja" oder "Nein". (Vermeiden Sie mehrere hintereinander, sie wirken wie ein Verhör).
+- Offene Fragen: Schränken die Antwortmöglichkeiten nicht ein. (In Interviews vorzuziehen, ermutigen Nutzer frei zu sprechen).
+- Suggestive Fragen: Deuten eine Präferenz für bestimmte Antworten an oder versuchen, die Antworten in eine bestimmte Richtung zu lenken.
+- Neutrale Fragen: Enthalten keine impliziten Annahmen und lenken die Antwort in keine bestimmte Richtung.
+(Preece et al., 2015)
+
+--- PAGE 13 ---
+Nutzeranalyse
+Wer ist der Nutzer? Identifizierung der Merkmale der Zielgruppe:
+- Alter, Geschlecht, Kultur, Sprache
+- Bildungsstand (Lese- und Schreibfähigkeit? Rechenfertigkeiten?)
+- Körperliche Einschränkungen
+- Computerkenntnisse (Tippen?)
+- Motivation, Einstellung
+- Fachkenntnisse, Erfahrung mit der Anwendung
+- Arbeitsumfeld und sonstiger sozialer Kontext
+- Beziehungen und Kommunikationsmuster
+(Preece et al., 2015)
+
+--- PAGE 14 ---
+[Image Description: Illustrations of three different personas: 'Kenal' (a man in a red sports jersey), 'Merve' (a woman wearing a hijab and vest), and 'Lisa' (a woman in a red star shirt and jacket). Next to them is a photo of a smiling businessman in a blue suit holding a briefcase, representing the persona 'William Jones'.]
+Personas
+Hypothetische, prototypische Person(en) mit:
+Name, Alter, weitere Merkmale, Ziele, Verhaltensweisen, Gewohnheiten, Vorlieben, Abneigungen, Aussehen.
+Beispiel einer Persona:
+William Jones, 31 Jahre, Single, keine Kinder, Diplom Betriebswirt. 
+Interessiert sich für Reisen und fremde Kulturen; liest viel und wandert gerne.
+Arbeitet seit 3 Jahren fest bei RTL in der Abteilung Medienforschung als Manager.
+Hat durch sein Studium breites Wissen über Fernsehforschung und Werbung erworben.
+Ist der Vorgesetzte von Frau Davis, verantwortet strategische Entscheidungen, arbeitet vorwiegend konzeptionell.
+Hat Freude an seinem Job und empfindet den Umgang mit Computern als notwendiges Übel.
+(Preece et al., 2015)
+
+--- PAGE 15 ---
+[Image Description: A large illustration of a diverse crowd of cartoon people standing tightly together, grouped in the shape of a giant speech bubble.]
+Nutzergruppen
+Achtung! Falle! "Die Benutzergruppe für einen Online-Shop umfasst alle Personen". Beschreibt diese Aussage eine Benutzergruppe?
+Viele Anwendungen haben verschiedene Arten von Benutzern:
+- nach Rolle: z.B. Schüler, Lehrer, Eltern, Sekretär, Systemadministrator; Kunde, Vertrieb, Buchhaltung; Sachbearbeiter, Vorgesetzter, Auszubildender.
+- nach Merkmalen: z.B. Anfänger, fortgeschrittene Benutzer, Experten; Neukunden, Stammkunden; Altersunterschiede, Geschlecht; sozialer Hintergrund; Zeitpunkt/Häufigkeit der Nutzung; Motivation.
+(Preece et al., 2015)
+
+--- PAGE 16 ---
+[Image Description: An illustration of a woman with six arms, like a multi-tasking deity, wearing an apron. She is simultaneously holding a tennis racket, a cake on a plate, a fork, an acoustic guitar, a whisk, and a dish towel.]
+Häufige Fehler bei der Benutzeranalyse
+Statt zu analysieren, wer die realen Benutzer wirklich sind, wird der ideale Nutzer beschrieben.
+Beispiel für einen Fehler: "Benutzer sollten im Englischen lese- und schreibkundig sein, fließend Swahili sprechen, Rechtshänder sein und zusätzlich an einer Farbenblindheit leiden."
+(Preece et al., 2015)
+
+--- PAGE 17 ---
+Aufgabenanalyse
+Definition: "Systematic identification of the fundamental elements of a job [task], and examination of knowledge and skills required for the job's performance."
+Wesentliche Bestandteile der Aufgabenanalyse:
+- Was muss getan werden? (Ziel)
+- Was muss zuerst getan werden, um dies zu ermöglichen? (Voraussetzungen, abhängige Aufgaben, benötigtes Wissen)
+- Welche Schritte sind zur Ausführung der Aufgabe erforderlich? (Teilaufgaben, die rekursiv zerlegt werden können)
+(Preece et al., 2015; Stanton, 2006)
+
+--- PAGE 18 ---
+Ansätze in der Aufgabenanalyse
+- Wissensbasierte Techniken: Was der Nutzer über die Aufgabe weiß und wie diese strukturiert ist.
+- Entitäts-/objektbasierte Analyse: Beziehungen zwischen Objekten, Handlungen und den Personen, die diese ausführen.
+- Aufgabenzerlegung (Häufigste Variante: Hierarchical Task Analysis - HTA): 
+  - Aufteilung einer Aufgabe in (geordnete) Teilaufgaben.
+  - Beschreibung der von Personen ausgeführten Aktionen.
+  - Strukturierung der Handlungen innerhalb einer Hierarchie aus Aufgaben und Teilaufgaben.
+  - Festlegung der Reihenfolge der Teilaufgaben.
+(Preece et al., 2015; Stanton, 2006)
+
+--- PAGE 19 ---
+[Image Description: A high-quality photo of a blue cylinder vacuum cleaner lying on a white surface, with various attachments (hoses, brushes, nozzles) laid out next to it.]
+Hierarchical Task Analysis (HTA) - Beispiel
+Die Aufgabe einer Haushälterin soll es sein, das Haus zu putzen.
+- Um das Haus zu putzen, muss:
+  - der Staubsauger herausgeholt werden;
+  - das entsprechende Zubehör angebracht werden;
+  - die Zimmer gereinigt werden;
+  - der Staubbeutel geleert werden, wenn er voll ist;
+  - Staubsauger und Zubehör weggelegt werden.
+- Erforderliches Vorwissen:
+  - Wissen über Staubsauger, Zubehör, Staubbeutel;
+  - Kenntnis über Aufbewahrungsorte;
+  - Kennen der Räume, die gereinigt werden müssen.
+(Preece et al., 2015; Stanton, 2006)
+
+--- PAGE 20 ---
+[Image Description: A tree diagram illustrating the Hierarchical Task Analysis for cleaning the house. Node 0 "clean the house" branches down into 1 "get the vacuum cleaner out", 2 "get the appropriate attachment", 3 "clean the rooms", 4 "empty the dust bag", and 5 "put vacuum cleaner and attachments away". Node 3 further branches into 3.1 "clean the hall", 3.2 "clean the living rooms", and 3.3 "clean the bedrooms". Text boxes define 'plan 0' and 'plan 3' governing the order of execution.]
+Textuelle HTA:
+0. in order to clean the house
+  1. get the vacuum cleaner out
+  2. get the appropriate attachment
+  3. clean the rooms
+    3.1. clean the hall
+    3.2. clean the living rooms
+    3.3. clean the bedrooms
+  4. empty the dust bag
+  5. put vacuum cleaner and attachments away
+
+Plans:
+Plan 0: do 1-2-3-5 in that order; when the dust bag gets full do 4.
+Plan 3: do any of 3.1, 3.2 or 3.3 in any order depending on which rooms need cleaning.
+(Nicht die Nummerierung, sondern ausschließlich die Pläne bestimmen die Reihenfolge!)
+(Preece et al., 2015; Stanton, 2006)
+
+--- PAGE 21 ---
+Häufige Fehler bei der Aufgabenanalyse
+- Aus der Perspektive des Systems denken, statt aus der des Benutzers ("Benutzer über Termin benachrichtigen" vs. "Benachrichtigung über Termin erhalten").
+- Zu frühe Festlegung auf das Interface Design ("Die Systemglocke läutet, um den Benutzer über einen Termin zu benachrichtigen...").
+- Konzentration auf die konkrete Aufgaben anstatt auf die grundlegenden Ziele ("Datei auf Festplatte speichern" vs. "Sicherstellen, dass meine Arbeit erhalten bleibt").
+- Übernehmen ineffizienter oder falscher Abläufe aus existierenden Produkten.
+- Versäumnis, gute Aspekte der bestehenden Vorgehensweise zu erfassen.
+(Preece et al., 2015; Stanton, 2006)
+
+--- PAGE 22 ---
+Domänenanalyse
+Was ist der Kontext?
+Die Domänenanalyse ermittelt die Entitäten und Beziehungen innerhalb der Domäne:
+- sammelt zugehöriges Wissen und Terminologie
+- verhindert Missverständnisse und Mehrdeutigkeiten, die durch unterschiedliche Definitionen und Begriffe entstehen können
+- deckt Elemente der Domäne auf sowie deren Beziehungen zueinander.
+(Preece et al., 2015)
+
+--- PAGE 23 ---
+[Image Description: A diagram mapping the domain of an "Olympic Message System". It visually connects entities with relationships: A "Sysadmin" 'creates' an "Athlete" and an "Account". An "Athlete" 'has-a' "Account". An "Account" 'contains' a "Message". "Friends & family" use a "Telephone" and "Name card". Numbers indicate multiplicity, e.g., 100 Sysadmins, 10000 Athletes.]
+Beispiel - Olympic Message System
+1. Wichtige Elemente in der Domäne identifizieren:
+   - Personen: Athleten, Freunde und Familie, Systemadministratoren
+   - Physische Objekte: Visitenkarte, Telefon
+   - Informationsobjekte: Nachrichten, Konten
+2. Wichtige Beziehungen zwischen den Entitäten ermitteln:
+   - Athleten haben Accounts
+   - Accounts haben/enthalten Nachrichten
+   - Familie und Freunde kennen Athleten
+   - Systemadministratoren registrieren Athleten oder erstellen Accounts
+3. Vielfachheit von Dingen und Beziehungen bestimmen:
+   - ! means exactly 1
+   - ? means 0 or 1
+   - + means 1 or more
+   - * means 0 or more
+(Preece et al., 2015)
+
+--- PAGE 24 ---
+[Image Description: A diagram showing three input arrows labeled 'Nutzeranalyse', 'Aufgabenanalyse', and 'Domänenanalyse' all pointing into a central box labeled 'Systems and Software Requirements Specification (SRS)'.]
+Systems and Software Requirements Specifications (SRS, ISO/IEC/IEEE 29148:2018)
+Technisches Dokument. Kombination aus Lastenheft des Kunden und Pflichtenheft des Anbieters. Grundlage für die Entwicklung eines Produkts.
+Wird gespeist aus Nutzeranalyse, Aufgabenanalyse und Domänenanalyse.
+Beinhaltet meist folgende Elemente:
+- Einführung mit Ziel, Zweck und Umfang
+- Allgemeine Beschreibung der zu entwickelnden Lösung
+- Bedürfnisse der Anwender
+- System- und Softwareanforderungen bzw. -funktionen
+- Verwendete Definitionen und Akronyme
+- Ergänzende Informationen wie Grafiken, Skizzen, Modelle, etc.
+(ISO/IEC/IEEE 29148, 2018)
+
+--- PAGE 25 ---
+Häufige Probleme beim Verfassen von SRS
+Schlechte bzw. ungenügende Spezifikationen führen zu umfangreichen Folgekosten und Unzufriedenheit.
+Häufige Probleme:
+- Schlechte Annahmen
+- Beschreibung von Implementierungen (WIE) statt Anforderungen (WAS)
+- Beschreibung der Vorgänge anstatt der Anforderungen
+- Verwendung falscher Begriffe
+- Falsche Satzstruktur oder schlechte Grammatik
+- Fehlende Anforderungen
+- Übergenaue Spezifizierungen
+(ISO/IEC/IEEE 29148, 2018)
+
+--- PAGE 26 ---
+Review Fragen (CPUX-F Öffentliche Prüfungsfragen)
+Welche der folgenden Aussagen beschreibt den Zweck einer Fokusgruppe am besten?
+a) Fokussierte Informationen von einer Gruppe von Benutzern in einer Usability-Testsitzung sammeln.
+b) Kontextuelle Informationen über die Erfordernisse der Benutzer sammeln, ohne deren Arbeit zu beeinträchtigen.
+c) Kontextuelle Informationen über die Erfordernisse der Benutzer sammeln, indem man mit Benutzern spricht und dabei den Fokus auf eine besondere Benutzergruppe legt.
+d) Ideen für Personas und Szenarien sammeln.
+e) Eine Menge an Fragen zu spezifischen Themen diskutieren.
+f) Ein interaktives System evaluieren.
+
+--- PAGE 27 ---
+Review Fragen
+Welche drei der folgenden Richtlinien sind wichtig für ein erfolgreiches kontextuelles Interview? (3 richtige Antworten)
+a) Das kontextuelle Interview muss im Nutzungskontext erfolgen.
+b) Das kontextuelle Interview darf nicht im Nutzungskontext erfolgen.
+c) Der Interviewer ist der Meister und der Benutzer ist der Schüler.
+d) Der Benutzer ist der Meister und der Interviewer ist der Schüler.
+e) Der Interviewer muss neutrale Fragen stellen.
+f) Der Interviewer muss Suggestivfragen stellen.
+
+--- PAGE 28 ---
+Review Fragen
+Ein Kollege plant Interviews mit den Benutzern eines Restaurantbewertungssystems. Seine Interview-Checkliste enthält unter anderem die Frage: "Wie wählen Sie ein Restaurant aus?". Welche zwei der folgenden Begriffe charakterisieren diese Interviewfrage am besten? (2 richtige Antworten)
+a) Geschlossen
+b) Formativ
+c) Suggestiv
+d) Neutral
+e) Offen
+f) Summativ
+
+--- PAGE 29 ---
+Review Fragen
+Welche drei Eigenschaften beschreiben die Hierarchische Task Analyse (HTA)? (3 richtige Antworten)
+a) Spaltung der Aufgabe in geordnete Unteraufgaben
+b) Wissen des Users über die Aufgabe und deren Organisation
+c) Beziehungen zwischen Objekten, Aktionen und die Menschen, die sie ausführen
+d) Reihenfolge der Aufgaben durch Nummerierung festgelegt
+e) Pläne bestimmen Abfolge, in denen Unteraufgaben ausgeführt werden
+f) Formulierung der Aufgaben aus Perspektive des User, nicht aus Sicht des Systems
+
+--- PAGE 30 ---
+[Image Description: A screenshot of a computer interface showing prototyping software. Two mobile phone frames are on a canvas. The left one shows a mock app interface for an expense tracker. The right one is a blank wireframe template. Below the canvas is a timeline used for animating app transitions.]
+Prototyping: Was ist ein Prototyp?
+Ein Prototyp ist eine unvollständige, frühe Version eines Produktes.
+Es gibt viele Ansätze zur Erstellung von Prototypen. Prototypen von User Interfaces können so einfach wie eine Skizze auf einem Blatt Papier sein, so komplex wie eine Webanwendung oder irgendwo zwischen diesen beiden Extremen!
+Prototyping ist ein integraler Bestandteil des User Interface Design-Prozesses.
+(Preece et al., 2015)
+
+--- PAGE 31 ---
+Vorteile des Prototyping
+- Geringe Kosten; erfordert wenig Zeit und liefert technisches Fachwissen.
+- High Return-on-Investment: Einholen von Nutzer-Feedback bereits in einer frühen Phase, Aufdeckung problematischer Designentscheidungen, bevor diese in den Code übernommen werden, Minimierung von Missverständnissen.
+- Experimentieren mit Alternativen: Leichtes Ändern oder Verwerfen.
+- Führt in der Regel zu besseren Benutzeroberflächen.
+(Preece et al., 2015)
+
+--- PAGE 32 ---
+Prototyp Fidelity
+Ähnlichkeit eines Prototyps zum finalen Produkt.
+Low-Fidelity (Lo-Fi):
+- Keine Details, skizzenhaft und unvollständig
+- Mit einigen Merkmalen des Zielprodukts, aber ansonsten einfach
+- In der Regel schnell erstellt, dient zum Testen allgemeiner Konzepte
+High-Fidelity (Hi-Fi):
+- Nahe am Endprodukt, komplexe und interaktive Versionen
+- Viele Details und Funktionalitäten implementiert
+- Besitzen eine sehr hohe Ähnlichkeit mit dem Endprodukt
+- Liefern Rückschlüsse auf das Verhalten des Endprodukts, beantworten Fragen zur Benutzerfreundlichkeit
+(Preece et al., 2015)
+
+--- PAGE 33 ---
+Fünf Dimensionen der Fidelity
+- Breite (horizontal): Wie viel von der Funktionalität des Produkts ist im Prototyp vertreten? (Prozentsatz der abgedeckten Funktionen).
+- Tiefe (vertikal): Wie viel vom Backend des Prototyps ist funktionsfähig und wie robust ist es? (Flache sind hart-codiert, tiefe haben Logik).
+- Look (visuell): Inwieweit gibt der Prototyp das beabsichtigte Erscheinungsbild des Produkts wieder (Schriftarten, Farben, Grafiken)?
+- Interaktion (Handhabung): Wie verarbeitet der Prototyp Eingaben und Ausgaben? Physikalische Methoden der Bedienung.
+- Inhalt: Inwieweit sind die verwendeten Inhalte kontextbezogen? (Texte, Bilder, Filme sollten auf den Kunden zugeschnitten sein, keine Platzhalter).
+(Preece et al., 2015)
+
+--- PAGE 34 ---
+[Image Description: A visual comparison of prototype fidelities for a "Microsoft Print to PDF" dialog box. Left: "Prototyp als Skizze" - a rough hand-drawn sketch of the UI on paper. Middle: "... als Wireframe" - a clean, black-and-white digital wireframe layout. Right: "... erstellt mit einem Form Builder" - a highly realistic, full-color (blue background) digital prototype resembling a real Windows OS dialog box.]
+Vergleich der Prototyp Fidelity
+...in Breite, Tiefe, Look, Interaktion, Inhalt
+Beispiel: Microsoft Print to PDF
+- Prototyp als Skizze (Lo-Fi)
+- Prototyp als Wireframe (Mid-Fi)
+- Prototyp erstellt mit einem Form Builder (Hi-Fi)
+(Preece et al., 2015)
+
+--- PAGE 35 ---
+Prototypen
+Papierprototyp:
+- Interaktives Papiermodell, natürliche Interaktion (Person simuliert Bedienung).
+- Low Fidelity in Aussehen und Interaktion, möglicherweise High Fidelity in der Tiefe.
+- Vorteile: Schnell zu bauen, einfach anzupassen, Fokus auf das große Ganze, auch Nicht-Programmierer können mithelfen.
+Computerprototyp:
+- Interaktive Softwaresimulation.
+- High Fidelity in Aussehen und Interaktion, möglicherweise geringere Fidelity in der Tiefe.
+- Haupttechniken: Storyboarding, Form Builder.
+- Warum Prototyping-Tools verwenden? Schneller als Programmieren, kein Debugging, einfacher zu ändern oder zu verwerfen.
+(Preece et al., 2015)
+
+--- PAGE 36 ---
+[Image Description: A physical Blackberry Pearl 8100 phone next to a hand-drawn paper prototype of the same phone. Surrounding the paper phone are several hand-drawn screen sketches on grid paper, illustrating different menus and actions for a Twitter app interface on the phone.]
+Beispiele für Papierprototypen
+BlackBerry Pearl 8100
+Zeichnen. Kopieren. Ausschneiden. Animieren (bei Bedarf).
+(Waldman, 2008)
+
+--- PAGE 37 ---
+[Image Description: Three images showing paper prototypes. 1. A person holding a cardboard cutout shaped like a Nintendo Wii U gamepad, sliding a paper screen insert into the frame. 2. A hand holding the back of the cardboard gamepad. 3. A series of sketches representing a folder interface with tabs ("Record", "Add", "Report"). A yellow sticky note acts as a drop-down menu layer over the main page.]
+Beispiele für Papierprototypen
+- Nintendo Wii U: Ein früher Nintendo Prototyp. Nur Schere, Bleistift, Kleber und Karton werden benötigt.
+- Registerkarten und Dropdown-Menü: Eine Reihe von "Registerkarten" mit jeweils ein paar Schaltflächen und ein gelbes Post-it als Dropdown-Menü. Was passiert, wenn man auf eine "Registerkarte" klickt?
+
+--- PAGE 38 ---
+Erkenntnisgewinn aus Prototypen
+Papierprototyp:
+- Konzeptionelles Modell: Verstehen die Nutzer es?
+- Funktionalität: Erfüllt er die Anforderungen? Fehlen Funktionen?
+- Navigation & Aufgabenablauf: Finden sich die Nutzer zurecht?
+- Terminologie: Verstehen die Nutzer die Beschriftungen?
+- Bildschirminhalte: Was muss auf dem Bildschirm angezeigt werden?
+Wo ein Papierprototyp nicht hilft: Optik (Farbe, Schriftart), Interaktion (Effizienzprobleme), Reaktionszeiten.
+
+Computerprototyp:
+Alles von dem Papierprototyp, plus zusätzlich:
+- Bildschirmlayout: Ist es übersichtlich, überladen, ablenkend? Können Nutzer wichtige Elemente finden?
+- Farben, Schriftarten, Symbole: Sind sie gut gewählt?
+- Interaktives Feedback: Nehmen Nutzer Meldungen wahr und reagieren darauf?
+- Fragen der Benutzerfreundlichkeit: Sind die Bedienelemente groß genug? Die Scroll-Liste zu lang?
+(Preece et al., 2015)
+
+--- PAGE 39 ---
+Anhang: Glossar
+- CPUX-F: Certified Professional for User Experience Foundation (Zertifizierung für UX-Grundlagen, z. B. Prüfungsfragen).
+- HCI: Human-Computer Interaction (Mensch-Computer-Interaktion).
+- HTA: Hierarchical Task Analysis (Hierarchische Aufgabenanalyse).
+- Lo-Fi: Low-Fidelity (Niedrigtreue-Prototyp, skizzenhaft).
+- Hi-Fi: High-Fidelity (Hochtreue-Prototyp, nah am Endprodukt).
+- SRS: Systems and Software Requirements Specifications (System- und Software-Anforderungsspezifikationen).
+
+--- PAGE 40 ---
+Literaturverzeichnis
+- Boehm, B. W. (1988). A spiral model of software development and enhancement. Computer, 21(5), 61-72.
+- Benington, H. D. (1983). Production of large computer programs. IEEE Annals of the History of Computing, 5(4), 350-361.
+- International Organization for Standardization. (2019). ISO 9241-210:2019. Ergonomics of human-system interaction Part 210: Human-centred design for interactive systems.
+- International Organization for Standardization / IEC / IEEE. (2018). ISO/IEC/IEEE 29148:2018. Systems and software engineering Life cycle processes Requirements engineering.
+- Nielsen Norman Group. (2024). Parallel & iterative design + competitive testing = High-quality UX.
+- Preece, J., Sharp, H., & Rogers, Y. (2015). Interaction design: Beyond human-computer interaction (4th ed.). Wiley. (Standardwerk für HTA, Personas, Prototyping)
+- Stanton, N. A. (2006). Hierarchical task analysis: Developments, applications, and extensions. Applied Ergonomics, 37(1), 55-79.
+- Waldman, A. (2008). Paper prototyping examples: BlackBerry Pearl 8100. [Blogbeitrag oder Buchkapitel].

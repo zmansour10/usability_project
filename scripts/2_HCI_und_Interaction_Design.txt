@@ -1,0 +1,171 @@
+2) HCI & Interaction Design
+
+=========================================
+1. Course Structure Roadmap
+=========================================
+[Image Description: A 6-step roadmap diagram outlining the course structure: 
+1. Usability Design Techniques
+2. HCI & Interaction Design (Current module)
+3. Data Visualisation
+4. Usability Concepts
+5. Interaction Principles
+6. Evaluation]
+
+Topics Covered:
+- The Human: Perception & Cognition (Information I/O, Storage, Mental Models)
+- The Interaction: Models & Ergonomics
+- Context & Experience (Context of Use, Gamification, Gamification & Engagement, Cognitive Load Theory, Emotion)
+- Interaction Paradigms (GUI, NUI, VUI, Immersive Tech, Human-AI)
+- Dark Patterns & Ethics
+
+=========================================
+2. HCI & Interaction Design Basics
+=========================================
+Human-Computer Interaction (HCI): Focuses on researching how humans interact with technology. Combines psychology, design, and computer science.
+Interaction Design (IxD): Focuses on the interaction/dialogue between humans and systems. Considered more modern.
+
+[Image Description: A diagram showing HCI and IxD as a multi-disciplinary subject. At the core are 'Cognitive & Behavioral Sciences', 'Computer Science & Engineering', and 'Design Disciplines'. Surrounding disciplines include Psychology, Ergonomics / Human Factors, Sociology / Anthropology, Software Engineering, Artificial Intelligence, Hardware Engineering, Information Architecture, Industrial Design, and Graphic / Visual Design.]
+
+=========================================
+3. The Human: Perception & Cognition
+=========================================
+Humans have limited capacity to process information. Information is received via I/O channels (visual, auditory, haptic), stored in memory, processed via reasoning, and influenced by emotion and individual differences.
+
+Vision:
+- Physical reception: The eye receives light. 
+[Image Description: Diagram of the human eye showing light entering through the Cornea and Pupil, passing the Lens, and focusing upside down onto the Retina (which contains the Fovea and Blind spot) before sending signals via the Optic Nerve.]
+- Photoreceptors: 
+  - Cones (color vision, photopic, concentrated in fovea, sensitive to red, green, blue).
+  - Rods (grayscale, scotopic/low-light, peripheral vision).
+[Image Description: Close-up illustrations of a rod cell and a cone cell.]
+[Image Description: A graph plotting receptor density across the retina. Cones spike sharply exactly at the fovea (0 degrees). Rods are absent at the fovea, peak around 20 degrees (temporal and nasal sides), and both drop to zero at the blind spot.]
+
+Perception of Color:
+- Color = Hue (wavelength) + Intensity (brightness) + Saturation (purity).
+- About 8% of males and 1% of females are color blind. 
+[Image Description: Two sets of colored pencils. The first shows full color. The second simulates color blindness where reds and greens are harder to distinguish, appearing brownish or yellowish.]
+
+Interpreting the signal:
+- Visual angle indicates how much of the visual field an object occupies.
+[Image Description: Two stick figures at different distances from an eye. A closer, smaller figure can have the same visual angle as a larger, further figure.]
+- Perception relies on cues (occlusion, familiarity).
+- Optical illusions occur due to overcompensation or ambiguity. 
+[Image Description: Muller Lyer illusion with arrows, Ponzo illusion with lines, and a text illusion where "the" is repeated ("jumps over the the lazy dog") but often missed by readers.]
+- Reading involves saccades and fixations. Word shape plays an important role.
+
+Hearing:
+[Image Description: Diagram of the human ear showing the outer ear, ear canal, middle ear (ossicles), and inner ear (cochlea).]
+- Pitch (frequency), Loudness (amplitude), Timbre (quality).
+- Selective hearing: The auditory system filters incoming sounds (focusing on specific stimuli while ignoring background noise).
+
+Touch & Movement:
+- Haptic perception: Thermoreceptors (heat), Nociceptors (pain), Mechanoreceptors (pressure).
+- Kinesthesis: Awareness of body position.
+- Reaction time depends on stimulus type (visual ~200ms, auditory ~150ms, pain ~700ms), intensity, expectation, and practice.
+
+=========================================
+4. Information Storage
+=========================================
+[Image Description: Timeline diagram of memory types. Sensory memory lasts seconds, Short-term memory (STM) lasts minutes, Intermediate-term lasts hours/days, and Long-term memory (LTM) lasts a lifetime.]
+
+- Sensory memory: Buffers for stimuli (iconic, echoic, haptic). Continuously overwritten.
+- Short-Term Memory (STM): Temporary storage, limited capacity (7±2 chunks, Miller's law).
+- Intermediate-term memory: Context-dependent.
+- Long-term memory (LTM): Repository for all knowledge. Semantic memory (facts, networks) and Episodic memory (events).
+[Image Description: A semantic network graph mapping concepts (e.g., Dog is an animal, Beagle is a dog, Snoopy is a Beagle).]
+- Forgetting: Decay (gradual loss) and Interference (retroactive/proactive). Memory is selective.
+
+=========================================
+5. Mental Models & Metaphors
+=========================================
+- Models describe how systems work.
+- Mental models: Humans form them to explain system behavior. Incorrect models lead to errors.
+[Image Description: A diagram showing the Designer's Model and the User's Mental Model. They only communicate indirectly through the System Image (Interface Model).]
+
+Metaphors:
+- Cognitive bridges (e.g., Desktop, Shopping cart, Book/page-turning).
+- Example conflict: Saving a document into a 'folder' vs. modern 'search/cloud' infinite pile models.
+
+=========================================
+6. Cognitive Load Theory
+=========================================
+- Goal: Manage mental effort to not exceed working memory limits.
+[Image Description: A cylinder representing Working Memory Capacity divided into three layers: Intrinsic Load (bottom), Extraneous Load (middle), and Germane Load (top).]
+- Intrinsic Load: Inherent difficulty of the task. (Manage it).
+- Extraneous Load: Mental effort caused by poor design. (Minimize it).
+- Germane Load: Mental effort used to learn and build schemas. (Optimize it).
+- Design principles: Avoid Split-Attention, avoid Redundancy, use Modality Effect (audio + visual).
+
+Reasoning & Problem Solving:
+- Deduction (logical necessity), Induction (generalizing), Abduction (plausible cause).
+- Experiment: Wason's cards. We handle positive evidence better than negative evidence.
+
+Emotion & Aesthetics:
+- Aesthetic-Usability Effect: Aesthetically pleasing designs are perceived as more usable.
+[Image Description: Comparison between a basic wireframe (left) and a polished, aesthetically pleasing UI design (right).]
+
+=========================================
+7. Interaction Paradigms
+=========================================
+GUI (Graphical User Interfaces):
+- Evolved from Command Line to WIMP (Windows, Icons, Menus, Pointers).
+- Direct Manipulation: Visible objects controlled by physical actions (clicks, drags).
+- Modern GUI: Skeuomorphism -> Flat Design -> Flat 2.0 / Material Design.
+- Responsive & Adaptive design.
+
+NUI (Natural User Interfaces):
+- Reality-Based Interaction (RBI): Pinch, swipe, gestures. The computer fades into the background.
+- Challenges: Lack of affordance (discoverability), Physical Ergonomics ("Gorilla Arm Syndrome"), Precision ("Fat Finger Problem").
+
+VUI (Voice User Interfaces):
+- Zero UI. Interaction without visual confirmation.
+- Challenges: Privacy in public, Discoverability ("What can I ask?").
+
+Immersive Technologies:
+[Image Description: The Reality-Virtuality Continuum: Reality -> Augmented Reality -> Augmented Virtuality -> Virtual Reality -> Mixed Reality.]
+- Focus shifts from usability to 'presence' (feeling of being there).
+- Challenges: Cybersickness, Wayfinding.
+
+Human-AI Interaction:
+- Paradigm shift from Tool to Agent (Proactivity, Probabilistic Output).
+- Ethical usability: Bias awareness, user agency.
+
+=========================================
+8. The Interaction: Models & Ergonomics
+=========================================
+Norman's Seven Stages of Action:
+Goal -> Formulate intention -> Specify actions -> Execute -> Perceive state -> Interpret state -> Evaluate relative to goal.
+[Image Description: A loop diagram showing 'Goal' flowing into 'Execution' flowing into 'System' flowing into 'Evaluation' and back to 'Goal'.]
+- Gulf of Execution: User's formulation doesn't match allowed actions.
+- Gulf of Evaluation: System presentation doesn't match user's expectation.
+
+Abowd & Beale's Framework:
+[Image Description: An oval model mapping translations. System (Core) -> Presentation -> Output (O) -> Observation -> User (Task) -> Articulation -> Input (I) -> Performance -> System.]
+
+Fitts's Law:
+- Movement time depends on Distance to target and Size of target.
+- Make targets larger and closer. Edges of screens are 'infinite' targets.
+[Image Description: A heatmap on a smartphone screen showing the center is the most accurate touch zone, while edges and corners are the least accurate.]
+
+Hick's Law:
+- Decision-making time increases logarithmically with the number of choices.
+[Image Description: A logarithmic curve charting Time vs. Number of Choices. Comparing a cluttered grandparent TV remote vs a minimal modern remote; and a simple Google search page vs a complex results page.]
+
+Modern Ergonomics:
+- Physical interaction: Devices are held differently based on size and context.
+[Image Description: Illustrations of six common ways people hold smartphones (Cradled, Hold and Touch, Two hands portrait/landscape, One hand first/second order).]
+- Cognitive Ergonomics: Users prefer to view and touch the center. People tap only what they see (avoid occlusion).
+
+=========================================
+9. Context, Gamification & Ethics
+=========================================
+Context of Use:
+- Usability depends on User, Task, Resources, and Environment.
+[Image Description: A Venn diagram showing User, Task, Environment, and Resources converging into the 'Interaction Experience'.]
+
+Gamification & Engagement:
+- Based on Self-Determination Theory (Autonomy, Competence, Social Connection) and Flow (balance of challenge/skill).
+
+Dark Patterns & Ethics:
+- Interface designs that manipulate users (e.g., Roach Motel, Sneak into Basket, Confirmshaming).
+- Value Sensitive Design (VSD): Design shapes values like autonomy and transparency.

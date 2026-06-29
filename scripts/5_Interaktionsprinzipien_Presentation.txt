@@ -1,0 +1,1094 @@
+Interaktionsprinzipien - Presentation Transcript & Image Descriptions
+
+--- PAGE 1 ---
+Interaktionsprinzipien
+Angela Kreienkamp, MPrComp (Aus)
+Sommersemester 2026
+Quelle: www.freepik.com Quelle: Gemini Nano
+
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 2 ---
+2Interaktionsprinzipien
+Usability ist kein Zufall
+−Interaktionsprinzipien
+−Norm & Psychologie
+Aufgabenangemessenheit
+−Hicks Law
+−Tesler's Law
+Selbstbeschreibungsfähigkeit
+−Recognition –over–Recall
+−Aesthetic -Usability Effect
+InteraktionsprinzipienErwartungskonformität
+−Jakob’s Law
+Erlernbarkeit
+−Design Shapes 
+Mental Models
+−Millers Law
+−Restorff Effect
+Steuerbarkeit
+−Doherty Threshold
+1
+Usability 
+Design 
+Techniques
+2
+HCI & 
+Interaction 
+Design
+3
+Data 
+Visualisation
+5
+Interaction 
+Principles
+4
+Usability 
+Concepts
+6
+Evaluation
+Robustheit gegen 
+Benutzerfehler
+−People will make errors
+−Postels Gesetz
+Benutzerbindung
+−Peak-End-Rule
+Usability -Probleme 
+im Alltag
+Appendix
+[Image Description: Chart showing logarithmic curve of reaction time increasing with the number of choices.]
+
+--- PAGE 3 ---
+3Warum Prinzipien der Schlüssel 
+zu intuitiver Software sind
+„Don't make me think!“
+Interaktionsprinzipien | Usability ist kein ZufallUsability ist kein Zufall
+Normativ: 
+DIN EN ISO 9241 -110 
+Struktur & Qualität
+Psychologisch: 
+Laws ofUX 
+Wahrnehmung & Kognition(Krug, 2014).
+[Image Description: Visual of Steve Krug's book or confused user.]
+
+--- PAGE 4 ---
+4Interaktionsprinzipien 
+nach DIN EN ISO 9241-110:2020
+Ergonomie der Mensch -System -Interaktion: 
+Interaktionsprinzipien
+Interaktionsprinzipien | Usability ist kein Zufall | Interaktionsprinzipien (DIN EN ISO 9241 -110, 2020; usability.de).Selbst -
+beschreibungs -
+fähigkeitAufgaben-
+angemessenheit
+Robustheit 
+gegen 
+Benutzer -
+fehler
+Benutzer -
+bindung
+Erlernbarkeit SteuerbarkeitErwartungs -
+konformität
+Interaktions -
+prinzipien
+[Image Description: ISO 9241-110 diagram showing principles like Aufgabenangemessenheit, Erlernbarkeit, etc.]
+
+--- PAGE 5 ---
+5Norm & Psychologie
+Interaktionsprinzipien | Usability ist kein Zufall | Norm & Psychologie (DIN EN ISO 9241 -110, 2020; usability.de).Aufgabenangemessenheit 
+Selbstbeschreibungsfähigkeit 
+Erwartungskonformität 
+Erlernbarkeit 
+Steuerbarkeit 
+Robustheit gegen Benutzerfehler 
+Benutzerbindung ISO 9241 -110
+Struktur & QualitätHicks Law
+Tesler’s Law
+Recognition– over–Recall
+Aesthetic -Usability Effect
+Jakob’s Law
+Millers Law
+Restorff Effect
+Doherty Threshold
+Postels Gesetz
+Peak-End RuleLaws of UX (Auswahl )
+Wahrnehmung & Kognition
+[Image Description: Chart showing logarithmic curve of reaction time increasing with the number of choices.]
+
+--- PAGE 6 ---
+6−Review questions
+Welche der folgenden Begriffe sind 
+Interaktionsprinzipien?
+3 richtige Antworten
+a)Erlernbarkeit
+b)Barrierefreiheit
+c)Gebrauchstauglichkeit
+d)Selbstbeschreibungsfähigkeit
+e)Steuerbarkeit
+f)Flexibilität
+Interaktionsprinzipien | Usability ist kein Zufall | Review questions
+https ://tweedback.de/zubh
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 7 ---
+7Nutzer effizient und ohne Umwege zum Ziel führen
+Interaktionsprinzipien | AufgabenangemessenheitAufgabenangemessenheit
+(DIN EN ISO 9241 -110, 2020).Gute Aufgabenangemessenheit spart Zeit, senkt Fehlerquoten und erhöht Zufriedenheit.Unterstützung 
+der Aufgabe
+Das System unterstützt bei 
+der Erledigung realer 
+Aufgaben.
+•Geeignete Funktionalität
+•Relevante Informationen
+•Für konkrete Aufgaben 
+passendAufwand minimieren
+Nur das zeigen, was 
+wirklich gebraucht wird.
+•Überflüssige Schritte 
+eliminieren
+•Unnötige Funktionen 
+ausblenden
+•Prozesse vereinfachen
+•Geeignete FunktionalitätGute Standards
+Standardauswahl -
+möglichkeiten anbieten.
+•Zweckmäßige Standard -
+auswahlmöglichkeiten
+•Keine irreführenden 
+Standardeinstellungen
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 8 ---
+8Hick's Law
+Die für eine Entscheidung erforderliche Zeitdauer steigt 
+mit der Anzahl und Komplexität der Auswahlmöglichkeiten.
+−Das Auswahlparadox
+•Die Psychologie der Entscheidungsfindung
+Interaktionsprinzipien | Aufgabenangemessenheit | Hick‘s Law (Yablonski , 2024).
+Glücksindex
+OptionenAuswahlparadoxOptionenZeit
+Mensch+ +Faktoren
+Weniger ist mehr, 
+zu viel Auswahl 
+verursacht Stress
+Reaktionszeit
+Vorhandene OptionenHicks LawWeniger Auswahl, 
+schnellere Reaktion
+[Image Description: Chart showing logarithmic curve of reaction time increasing with the number of choices.]
+
+--- PAGE 9 ---
+9−Kognitive Belastung
+−Hick's Laws zur Verbesserung des Benutzererlebnisses
+Interaktionsprinzipien | Aufgabenangemessenheit | Hick‘s Law (Yablonski , 2024).Einflussfaktoren auf die kognitive Belastung
+Überschuss an InformationenZu viele Informationen führen zu Ermüdung und lassen wichtige 
+Details untergehen
+Vertrautheit mit den Daten Gewöhnung verringert die kognitive Belastung
+Gruppierung von InformationenEffiziente Gruppierung oder Reihenfolge von Informationen senkt den Zeitaufwand
+Design -Richtlinien
+Benutzer und seine 
+Entscheidungsprozesse verstehenPersonas, Empathie Maps, Customer Journeys und 
+Datenanalyse nutzen
+Wichtige Optionen priorisieren Relevante Inhalte durch visuelle Hierarchie hervorheben
+Anzahl der Auswahlmöglichkeiten
+reduzierenNur relevante Optionen anzeigen
+Komplexe Informationen aufteilen Inhalte schrittweise und zielrelevant darstellen
+Progressive Offenlegung nutzen Erst Wichtiges, dann weitere Informationen zeigen.
+Klare Anweisungen und 
+Beschriftungen verwendenPrägnante Anweisungen und einfache Sprache erleichtern das 
+Verständnis
+[Image Description: Chart showing logarithmic curve of reaction time increasing with the number of choices.]
+
+--- PAGE 10 ---
+10Tesler's Law
+Ein bisschen Komplexität muss sein
+Interaktionsprinzipien | Aufgabenangemessenheit | Tesler's Law (Tesler , 1985; Yablonski , 2024).
+Tesler‘s Gesetz oder auch Komplexitätserhaltungsgesetz 
+besagt, dass jedes System einen gewissen Komplexitätsgrad 
+aufweist, der nicht verringert werden kann.
+[Image Description: Diagram showing the conservation of complexity (Tesler's Law).]
+
+--- PAGE 11 ---
+11−Verlagerung der Komplexität in das System
+•Beispiele zur Veranschaulichung von Tesler‘s Gesetz
+…Autos
+…E-Mail
+Interaktionsprinzipien | Aufgabenangemessenheit | Tesler's Law (Tesler , 1985; Yablonski , 2024).Bildquellen : 
+www.freepik.com
+Schaltgetriebe
+ Automatikgetriebe
+Moderner E -Mail-Client mit 
+verringertem Komplexitätsgrad: 
+Die »von«- Zeile ist 
+vorausgefüllt und die »nach«-
+Zeile wird aufgrund früherer E-Mails vorgeschlagen.
+Beispiel für die Smart -Compose -Funktion 
+von Gmail Quelle: 
+Gmail, 2023
+[Image Description: Diagram showing the conservation of complexity (Tesler's Law).]
+
+--- PAGE 12 ---
+12−Einfachheit: Es ist kompliziert
+Interaktionsprinzipien | Aufgabenangemessenheit | Tesler's Law (Tesler , 1985; Yablonski , 2024).
+How complex does it have to be?How simple can you make it?Risk of
+over- simplicity
+Simple without
+losing value
+Risk of 
+unnecessary
+complexity
+[Image Description: Diagram showing the conservation of complexity (Tesler's Law).]
+
+--- PAGE 13 ---
+13Nutzer verstehen sofort, was möglich ist und was gerade 
+passiert
+Interaktionsprinzipien | SelbstbeschreibungsfähigkeitSelbstbeschreibungsfähigkeit
+(DIN EN ISO 9241 -110, 2020).Gute Selbstbeschreibungsfähigkeit reduziert Unsicherheit, Fehler und Einarbeitungszeit.Intuitive Nutzung
+Informationen sind 
+unmittelbar verständlich.
+•Bedienung ohne 
+Erklärung 
+nachvollziehbar
+•Steuerelemente leicht auffindbar
+•Funktionen selbsterklärend gestaltetOrientierung & 
+Navigation
+Der Nutzer weiß jederzeit, wo er sich befindet .
+•Sichtbare 
+Navigationselemente
+•Aktuelle Aktivität gekennzeichnet
+•Nächste Schritte 
+erkennbarKlarer Systemstatus
+Das System kommuniziert transparent.
+•Fortschrittsanzeigen 
+sichtbar
+•Änderungen des Zustands werden 
+angezeigt
+•Erforderliche Eingaben klar markiert
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 14 ---
+14Recognition –over–Recall
+−Reduktion der kognitiven Last durch visuelle Hinweise
+Interaktionsprinzipien | Selbstbeschreibungsfähigkeit | Recognition –over– Recall (DIN EN ISO 9241 -110, 2020; Nielsen, 1994).Prinzip
+Wissen ist in der Welt 
+(Interface) vorhanden
+Beispiel
+Icons, Menüs, Auto- Suggest
+Vorteile
+Schnelle Intuition, geringe FehlerrateRecognition
+(Wiedererkennen)Recall
+(Erinnern)
+Prinzip
+Wissen muss im Kopf gespeichert sein
+Beispiel
+Befehlseingabe (Terminal)
+Gefahren
+Hohe Fehlerrate, mentale Überlastung
+Gute Software führt den Nutzer, statt ihn abzufragen
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 15 ---
+15Der Aesthetic-Usability-Effekt
+Das Gesetz der Schönheit
+Interaktionsprinzipien | Selbstbeschreibungsfähigkeit | Der Aesthetic- Usability -Effekt (Yablonski , 2024; Norman, 2013).Ein ästhetisch ansprechendes Design 
+wird von Nutzern häufig als 
+benutzerfreundlicher wahr genommen.
+
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 16 ---
+16−Warum ist das wichtig?
+•Ästhetik beeinflusst die Wahrnehmung 
+und Interaktion der Benutzer 
+−Vorteile von ästhetischem Design
+•Verbesserte erste Eindrücke
+•Erhöhtes Vertrauen der Benutzer
+•Verbesserte Benutzerzufriedenheit
+•Wettbewerbsvorteil
+−Die Kehrseite: Potenzielle Fallstricke
+•Verschleierung von Usability -Problemen
+•Überbetonung des Aussehens
+•Kulturelle  Unterschiede
+•Zugänglichkeitsbedenken
+Interaktionsprinzipien | Selbstbeschreibungsfähigkeit | Der Aesthetic- Usability -Effekt (Yablonski , 2024; Norman, 2013).
+
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 17 ---
+17−Einfluss des Ästhetik -Usability -Effekts in Usability -Tests
+•Bei einem ansprechenden Design sehen Nutzer 
+über kleinere Usability -Probleme eher hinweg.
+Interaktionsprinzipien | Selbstbeschreibungsfähigkeit | Der Aesthetic- Usability -Effekt (Yablonski , 2024; Norman, 2013).
+Obwohl eine Probandin beim Einkaufen aufderFitBit- Website aufviele Probleme stieß,
+bewertete siedieWebsite dennoch hoch.AlssieumFeedback gebeten wurde, äußerte sie
+sichnurzumvisuellen Design -wasdenForscher daran hinderte, dieUsability- Probleme des
+Designs zuerkennen .
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 18 ---
+18Das System verhält sich konsistent, nachvollziehbar und 
+vorhersehbar
+Interaktionsprinzipien | ErwartungskonformitätErwartungskonformität
+(DIN EN ISO 9241 -110, 2020).Gute Erwartungskonformität reduziert Lernaufwand, stärkt Vertrauen 
+und beschleunigt die Nutzung.Vorhersehbares 
+Verhalten
+Nutzer wissen, was als 
+Nächstes passiert.
+•Angemessene 
+Systemverhalten und 
+Reaktionen
+•Passend zu Benutzer -
+gruppen und Kontext
+•Klare Rückmeldungen geben
+•Fortschrittsinformationen 
+anzeigenKonsistenz schaffen
+Gleiches bleibt gleich.
+•Einheitliche Wort -und 
+Konzeptwahl
+•Interne Konsistenz 
+innerhalb des Systems
+•Externe Konsistenz mit 
+bekannten StandardsAuf Kontext reagieren
+Das System passt sich 
+sinnvoll an.
+•Flexibilität bei 
+Änderungen im 
+Nutzungskontext
+•Automatische Reaktion auf Kontextänderungen
+•weiterhin nachvollziehbare 
+Bedienung sichern
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 19 ---
+19The Frustrations of Everyday Life -‘Doors’
+Interaktionsprinzipien | Erwartungskonformität
+Reception door
+ Dining room door
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 20 ---
+20Jakob's Law –Das Design -Gesetz der Erwartung
+„Nutzer verbringen die meiste Zeit auf anderen Websites 
+und wünschen sich, 
+dass Ihre Website genauso funktioniert 
+wie alle anderen Websites, die sie bereits kennen.“
+Interaktionsprinzipien | Erwartungskonformität | Jakob‘s Law (DIN EN ISO 9241 -110, 2020; Yablonski, 2024).
+Sobald man eines dieser Autos fahren kann, kann man ohne Probleme ein anderes fahren.
+[Image Description: Visual showing standard UI patterns that users are accustomed to.]
+
+--- PAGE 21 ---
+21 Interaktionsprinzipien | Erwartungskonformität | Jakob‘s Law (Yablonski, 2024)."Die Fehler -Falle"
+(Verstöße)
+Scrolljacking
+•Stört den Lesefluss & die Kontrolle
+Zentriertes Logo ohne Home -Link
+•Navigations -Sackgasse
+Jeder Bruch mit der Konvention 
+kostet den Nutzer Zeit und Vertrauen."Die sichere Bank"
+(Etablierte Muster)
+Vertraute Interaktion senkt 
+die kognitive Last auf Null.
+Ein Design, das Nutzererwartungen ignoriert, 
+bricht den intuitiven Bedienfluss.
+Jakob‘s Law ist das zentrale Gestaltungsprinzip –für klassische Oberflächen 
+ebenso wie für die neuen Herausforderungen von Voice, AR und KI.
+Nutzer folgen dem Bekannten
+Quelle: www.uxtigers.com/post/jakobs -law
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 22 ---
+22Nutzer finden sich schnell zurecht und 
+lernen das System mit geringem Aufwand
+Interaktionsprinzipien | ErlernbarkeitErlernbarkeit
+(DIN EN ISO 9241 -110, 2020).Gute Erlernbarkeit senkt Einarbeitungszeit, stärkt Sicherheit 
+und erhöht die langfristige Nutzungskompetenz.Entdeckung 
+ermöglichen
+Gesuchte Inhalte schnell 
+auffindbar machen.
+•Informationen leicht 
+findbar
+•Steuerelemente sichtbar platzieren
+•Nicht offensichtliche 
+Funktionen auffindbar machenExploration 
+unterstützen
+Lernen durch sicheres Ausprobieren.
+•Funktionen testen ohne 
+negative Konsequenzen
+•Neugieriges Erkunden ermöglichen
+•Unsicherheit beim 
+Ausprobieren reduzierenWissen behalten
+Lernen nachhaltig unterstützen.
+•Rückmeldungen zur 
+Förderung des 
+Lernerfolgs
+•Mentale Modelle stärken
+•Wiedererkennung statt Neu-Lernen ermöglichen
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 23 ---
+23Design Shapes Mental Models
+−Good Design Creates Understanding
+•Six Design Principles
+Interaktionsprinzipien | Erlernbarkeit | Design Shapes Mental Models (Norman, 2013; DIN EN ISO 9241- 110, 2020).[Based on Don Norman’s “The Design of Everyday Things”]
+Visibility —See it
+Feedback —Know it
+Affordance —Use it
+Mapping —Find your way
+Constraint —Know the limits
+Consistency —Recognize it
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 24 ---
+24Visibility —See it
+Visibility is essential —arguably 
+the most important principle for 
+communicating a mental model.
+•System state is visible
+•Available actions are visible
+•Controls are easy to find and use
+Interaktionsprinzipien | Erlernbarkeit | Design Shapes Mental Models | VisibilityWhen visibility is missing
+Problems arise when we 
+cannot see how to use a device.
+•Invisible “active zones” replace visible 
+controls
+•Knobs, dials, and buttons disappear —interaction becomes ambiguous
+(Norman, 2013; DIN EN ISO 9241- 110, 2020).
+Car controls are positioned in a way 
+that they can be easily found and used
+Sensor -based faucets 
+→users guess where to act
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 25 ---
+25−How to use this drain valve
+Interaktionsprinzipien | Erlernbarkeit | Design Shapes Mental Models | Visibility
+
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 26 ---
+26−Hiding functionality
+•Some features should be hidden until needed.
+But core controls must stay visible.If not, users must guess:
+…Does it exist?
+…Where is it?
+−Invisible features in real life
+•Firefox users often don’t know:
+…Drag icon
+Create bookmark
+…Drag tabs
+Reorder
+Interaktionsprinzipien | Erlernbarkeit | Design Shapes Mental Models | Visibility (Norman, 2013).
+
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 27 ---
+27Feedback —Know it 
+•What is happening now?
+•Actions should have immediate effects
+…Buttons
+…Scrollbars
+…Drag & drop
+•Types of feedback
+…Visual
+…Audio
+…Haptic
+Interaktionsprinzipien | Erlernbarkeit | Design Shapes Mental Models | Feedback (Norman, 2013).
+
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 28 ---
+28Affordance —Use it
+•How do I use it?
+•Perceived properties of an object 
+that give clues how the thing could be used
+Interaktionsprinzipien | Erlernbarkeit | Design Shapes Mental Models | Affordance (Norman, 2013).
+Dials afford to turn them
+ Door handles afford 
+to push them
+Grips afford to handle them
+ Chairs afford to sit on them
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 29 ---
+29•Perceived and actual properties
+Interaktionsprinzipien | Erlernbarkeit | Design Shapes Mental Models | Affordance (Norman, 2013).
+Sitting 
+down?
+perceived: yes 
+actual: no!perceived: yes actual: yesperceived: no actual: no?
+perceived: yes actual: yes?
+
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 30 ---
+30Mapping —Find your way
+•Mapping is the relationship between two things.
+In interface design, this means the relationship between a control and its resulting function.For example:
+…A rotating volume control maps 
+clockwise rotation to increase volume
+anti-clockwise rotation to decrease volume
+•Physical arrangement of controls should match arrangement of functions
+Interaktionsprinzipien | Erlernbarkeit | Design Shapes Mental Models | Mapping (Norman, 2013).
+Stove burner with 
+natural mapping
+good mapping
+Typical stove burner
+bad mapping
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 31 ---
+31Constraint —Know the limits
+•Why can’t I do that?
+•Restricting the kind of interactions 
+that can take place
+…Reduces the chance of error
+…Can also work to focus user's 
+attention to needed task
+Interaktionsprinzipien | Erlernbarkeit | Design Shapes Mental Models | Constraint (Norman, 2013).
+
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 32 ---
+32Consistency —Recognize it
+•Have I seen this before?
+•Consistency helps users recognize and apply patterns.
+…Similar things should look and behave in similar ways.
+Different things should be clearly distinguishable.
+It makes systems:
+easier to learn 
+easier to use 
+easier to transfer knowledge between contexts 
+•Inconsistency leads to confusion and wrong expectations.
+•Types of consistency
+…Internal consistency within the application
+…External consistency across applications and platforms
+…Metaphorical consistency with real -world models or interface 
+metaphors
+Interaktionsprinzipien | Erlernbarkeit | Design Shapes Mental Models | Consistency (Norman, 2013; DIN EN ISO 9241- 110, 2020).
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 33 ---
+33−Where consistency matters
+•Consistency appears in different areas of interface design.
+…Layout consistency
+Positioning and grouping of controls and information.
+…Language consistency
+Use the same terms throughout the interface.
+Speak the user’s language.
+Avoid jargon, but use domain- specific terms when appropriate.
+…Platform consistency
+Follow platform standards:
+•Apple Human Interface Guidelines
+•Windows User Experience Guidelines
+•Java Look & Feel guidelines
+…Metaphors
+Metaphors improve learnability when appropriate.
+But they can also mislead or constrain if overused.
+Interaktionsprinzipien | Erlernbarkeit | Design Shapes Mental Models | Consistency (Norman, 2013; DIN EN ISO 9241- 110, 2020).
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 34 ---
+34Miller's Law
+Kleine Einheiten, großer Erfolg –Nur das wirklich Wichtige
+•Menschen können durchschnittlich nur 7 ( ±2) Elemente 
+in ihrem Arbeitsgedächtnis behalten.
+Interaktionsprinzipien | Erlernbarkeit | Miller's Law (Miller, 1956; Yablonski , 2024).
+Menschliches Arbeitsgedächtnis
+
+[Image Description: Visual showing chunking of information (e.g., phone numbers split into parts) representing the magical number 7±2.]
+
+--- PAGE 35 ---
+35−Die magische Zahl 7
+Interaktionsprinzipien | Erlernbarkeit | Miller's Law (Miller, 1956; Yablonski , 2024).
+
+[Image Description: Visual showing chunking of information (e.g., phone numbers split into parts) representing the magical number 7±2.]
+
+--- PAGE 36 ---
+36−Miller’s Gesetz im UX -Design
+UX-Design hilft Nutzern, ihre Ziele 
+ohne kognitive Überlastung zu erreichen.
+Kognitive Belastung
+Begrenzte Kapazität des Arbeitsgedächtnisses.
+Überlastung entsteht durch:
+…zu viele Funktionen 
+…zu viele visuelle Elemente 
+…zu viele Entscheidungen
+Grundregel
+Weniger ist mehr
+Interaktionsprinzipien | Erlernbarkeit | Miller's Law (Miller, 1956; Yablonski , 2024).
+
+[Image Description: Visual showing chunking of information (e.g., phone numbers split into parts) representing the magical number 7±2.]
+
+--- PAGE 37 ---
+37−Chunking –
+•Informationen in sinnvolle Gruppen zu strukturieren.
+…Unser Arbeitsgedächtnis verarbeitet Informationen 
+nicht einzeln, sondern in Einheiten. 
+7 Wörter lassen sich genauso leicht merken 
+wie 7 einzelne Buchstaben —wenn sie als Einheit verarbeitet werden.
+Interaktionsprinzipien | Erlernbarkeit | Miller's Law (Miller, 1956; Yablonski , 2024).
+Eine (US -)Telefonnummer 
+ohne und mit Chunking
+Beispiel für eine »Textwüste« 
+(Quelle: Wikipedia, 2019)
+Mittels Hierarchie, Formatierung und angemessenen 
+Zeilenlängen verbesserte »Textwüste« 
+(Quelle: Wikipedia)
+[Image Description: Visual showing chunking of information (e.g., phone numbers split into parts) representing the magical number 7±2.]
+
+--- PAGE 38 ---
+38Der Restorff-Effekt
+−Aus der Masse herausstechen
+Interaktionsprinzipien | Erlernbarkeit | Restorff -Effekt (Restorff , 1933; Yablonski , 2024).
+Flüssigseife in einer Gruppe von Fast Food.
+Von mehreren ähnlichen Objekten bleibt am ehesten 
+dasjenige im Gedächtnis, das sich von den anderen 
+unterscheidet.
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 39 ---
+39−Elemente, die den Restorff -Effekt hervorrufen
+•Farbe, Größe, Form, Bewegung
+Interaktionsprinzipien | Erlernbarkeit | Restorff -Effekt (Restorff , 1933; Yablonski , 2024).
+Eine rote Tomate unter vielen grünen Tomaten
+Quelle: www.freepik.com
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 40 ---
+40−Beispiele für den Restorff -Effekt
+Interaktionsprinzipien | Erlernbarkeit | Restorff -Effekt (Restorff , 1933; Yablonski , 2024).
+Einsatz von Kontrast, um die Aufmerksamkeit 
+auf wichtige Aktionen zu lenken
+Nachrichten -Websites setzen oft auf Größenunterschiede, um die wichtigsten 
+Schlagzeilen hervorzuheben
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 41 ---
+41−Take Aways
+•Etwas, das aus der Masse heraussticht, 
+wird eher gesehen und erinnert.
+•Verwende den Restorff -Effekt, um Aufmerksamkeit 
+auf sehr wichtige Informationen oder Schlüsselaktionen zu lenken.
+•Es ist wichtig, dieses Prinzip sparsam einzusetzen. Ein übermäßiger Gebrauch des Restorff -Effekts
+kann seine Wirkung mindern.
+Interaktionsprinzipien | Erlernbarkeit | Restorff -Effekt (Restorff , 1933; Yablonski , 2024).Call to Action button in Restorff Effect
+
+[Image Description: A set of similar items with one item highlighted in a different color/shape, demonstrating the Von Restorff effect.]
+
+--- PAGE 42 ---
+42−Review questions
+CPUX ‐F Öffentliche Prüfungsfragen
+Welche der folgenden Aussagen beschreibt 
+den Begriff „mentales Modell“ am besten?
+1 richtige Antwort
+a)Eine Beschreibung eines fiktiven, aber realistischen Benutzers und was er bei der Verwendung eines interaktiven Systems zu 
+tun beabsichtigt.
+b)Eine Beschreibung der Teilaufgaben innerhalb einer Aufgabe, die 
+ausgeführt werden müssen, um die Ziele des Benutzers zu erreichen.
+c)Die Vorstellung einer Person darüber, wie ein interaktives System funktioniert.
+d)Ein kostengünstiges, einfaches Modell eines Designs oder Konzepts, das dazu dient, Rückmeldungen von Benutzern und anderen Interessenvertretern in frühen Phasen der Entwicklung 
+einzuholen.
+e)Informationen, die einen Benutzer dabei unterstützen, mit einem 
+interaktiven System zu interagieren
+f)Ein Datenmodell, das abbildet, was die Teilnehmer nach einer Usability -Testsitzung über das interaktive System dachten.
+Interaktionsprinzipien | Erlernbarkeit | Review questions
+https ://tweedback.de/zubh
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 43 ---
+43Nutzer behalten jederzeit Kontrolle 
+über Tempo, Ablauf und Einstellungen.
+Interaktionsprinzipien | SteuerbarkeitSteuerbarkeit
+(DIN EN ISO 9241 -110, 2020).Gute Steuerbarkeit erhöht Kontrolle, reduziert Frustration und 
+unterstützt unterschiedliche Arbeitsweisen.Unterbrechung 
+jederzeit möglich
+Der Benutzer bestimmt 
+den Ablauf.
+•Jederzeit eingreifen 
+können
+•Pause einlegen
+•Beenden oder manuell übernehmenFlexibilität 
+in der Nutzung
+Unterschiedliche Wege 
+führen zum Ziel.
+•Reihenfolge frei wählbar
+•Alternative Wege und 
+Mittel verfügbar
+•Ausführungs-
+geschwindigkeit 
+anpassbar
+•Aktionen widerrufbarIndividualisierung
+Das System passt sich an den Nutzer an.
+•Standardeinstellungen 
+dauerhaft änderbar
+•Persönliche Präferenzen speicherbar
+•Vor-oder 
+Originaleinstellungen 
+wiederherstellbar
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 44 ---
+44−Tipps zur Gestaltung der Steuerbarkeit
+•Deutlich gekennzeichnete Ausgänge 
+…Lange Operationen sollten 
+abgebrochen werden können
+…Alle Dialoge sollten eine Abbruchtaste besitzen
+•Benutzerkontrolle über Daten
+…Vom Benutzer eingegebene Daten sollten auch vom Benutzer bearbeitet werden können
+•Unterstützung von 
+‚Rückgängig‘ und ‚Wiederherstellen‘Funktionen
+…Entwicklung eines mentalen Modells
+zum Rückgängigmachen ist komplexer 
+als es auf den ersten Blick scheinen mag
+•Welche Aktionen sind 
+rückgängig machbar?
+•Wie viel vom vorherigen Zustand wird wiederhergestellt?
+•Wie viele Schritte könnenrückgängig gemacht werden?
+Interaktionsprinzipien | Steuerbarkeit (DIN EN ISO 9241 -110, 2020).
+Rückgängig Wiederherstellen
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 45 ---
+45Die Doherty-Schwelle
+Mensch und Computer im Einklang
+−Jede Millisekunde zählt
+•Reaktionszeit -Skala
+<100 ms wirkt unmittelbar
+100–300 msVerzögerung wird wahrnehmbar
+>1000 msAufmerksamkeit geht verloren
+•Konsequenzen
+Nutzer werden frustriert
+Aufmerksamkeit sinkt
+kognitive Belastung steigt
+•Zielwert –<400 ms(Doherty Threshold)
+Aufmerksamkeit bleibt erhalten
+Produktivität steigt
+Interaktionsprinzipien | Steuerbarkeit | Doherty -Schwelle (Doherty & Thadani , 1982; Yablonski , 2024).Zeitnahe Reaktion und schnelle Ladezeit
+Quelle: www.freepik.com
+[Image Description: Progress bar, loading animation, or chart indicating response times under 400ms.]
+
+--- PAGE 46 ---
+46−Progress -Indikatoren, Animationen und gefühlte Performance
+•Fortschrittsbalken
+•Animationen
+Interaktionsprinzipien | Steuerbarkeit | Doherty -Schwelle (Doherty & Thadani , 1982; Yablonski , 2024).
+Na, das mag kaum jemand sehen: 
+der Loading Spinner ist das Symbol 
+des Online -Wartens –wie lange? 
+Weiß keiner so genau…
+Kleine Animation, große Wirkung: Fast 
+plastisch wird hier die Wartezeit verkürzt.
+So wird die Ladezeit angenehm 
+verkürzt. Eine illustrative Animation 
+lässt notfalls auch mal die die 
+Doherty- Schwelle vergessen, der User 
+ist ja beschäftigt 😉😉
+Während der Aktualisierungen gibt Apple 
+zusammen mit einem Fortschrittsbalken die 
+geschätzte Zeit bis zur Fertigstellung an. 
+[Quelle: Apple macOS ]
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 47 ---
+47•Bildschirmskelett
+•»Blur -up«-Technik
+Interaktionsprinzipien | Steuerbarkeit | Doherty -Schwelle (Doherty & Thadani , 1982; Yablonski , 2024).
+Das Bildschirmskelett von Instagramm erweckt den 
+Anschein, dass die Webseite schneller geladen wird.
+Quelle: Instagram, 2023
+Unsplash verwendet die »Blur -up«-Technik, um ein 
+schnelleres Laden der Seite zu ermöglichen
+Quelle: Unsplash , 2019
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 48 ---
+48Review questions
+•Welche der folgenden Beispiele beziehen sich 
+auf das Interaktionsprinzip der Steuerbarkeit?
+3 richtige Antworten
+a)Ein Online -Banking -System zeigt ein Foto des 
+persönlichen Kundenberaters an, um eine emotional positive Haltung für das Kundengespräch herzustellen. 
+b)Ein Fahrkartenautomat in einem Bahnhof erlaubt es dem Benutzer, Bahnhofsnamen entweder direkt einzugeben oder aus 
+einer Liste auszuwählen. 
+c)Ein automatischer Staubsauger ermöglicht es dem Benutzer, den 
+laufenden Saugvorgang zu unterbrechen und den Staubsauger von Hand zu bedienen.
+d)Die Website eines Museums bietet Mitteilungen über bestimmte künftige Ausstellungen.
+e)Ein Smartphone mit niedrigem Akkuladezustand zeigt beim Wechsel in den Stromsparmodus eine Meldung an. 
+f)Ein Virenprogramm zum Scannen eines Festplattenlaufwerks nach Viren kann zu jedem beliebigen Zeitpunkt 
+unterbrochen werden, indem der Benutzer auf 
+eine deutlich erkennbare Stopp -Schaltfläche klickt.
+Interaktionsprinzipien | Steuerbarkeit | | Review questions
+https ://tweedback.de/zubh
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 49 ---
+49Fehler vermeiden, verständlich reagieren und 
+schnelle Korrekturen ermöglichen
+Interaktionsprinzipien | Robustheit gegen BenutzungsfehlerRobustheit gegen Benutzungsfehler
+(DIN EN ISO 9241 -110, 2020).Gute Fehlerrobustheit reduziert Frust, schützt Daten und erhöht das Vertrauen in das System.Fehler vermeiden
+Probleme gar nicht erst 
+entstehen lassen.
+•Keine Mehrfacheingaben 
+erforderlich
+•Kein unbeabsichtigter Datenverlust
+•Warnungen bei 
+kritischen AktionenFehler tolerant 
+behandeln
+Das System bleibt hilfreich statt strafend.
+•Korrekturen von 
+Eingabefehlern 
+ermöglichen
+•Benutzungsfehler abfangen
+•Sichere Weiterarbeit unterstützenFehler schnell beheben
+Klare Hilfe bei Problemen liefern.
+•Eingabefehler entdecken 
+und korrigieren 
+•Präzise Fehlermeldungen anzeigen 
+•Konstruktive 
+Erläuterungen geben 
+•Minimaler Aufwand zur Fehlerkorrektur
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 50 ---
+50People will make errors –plan for it! 
+Errors we make
+Inattention or inappropriate attention causes slips, but not mistakes
+Error prevention 
+•Better than good error messages 
+is design that prevents errors in the first place.
+Interaktionsprinzipien | Robustheit gegen Benutzungsfehler | People will make errors (DIN EN ISO 9241 -110, 2020; Shneiderman , 2018).Mistakes Slips
+Conscious errors from using the wrong 
+procedure. Common in rule -based and 
+problem -solving behavior.Execution or memory failure in performing a procedure. Common in skilled behavior.
+Forgiveness Error recovery Undo & redo
+•Prevent slips before they occur
+•Avoid serious errors
+•Confirm destructive actions•Detect and correct errors
+•Provide clear, simple messages
+•Suggest solutions•Allow users to reverse actions
+•Provide “ emergency exits”
+•Reduce anxiety and support exploration
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 51 ---
+51Error recovery 
+−Prevent errors as much as possible, 
+write good error messages otherwise
+•Error messages should be expressed 
+in plain language ( no codes)
+•not “FileNotFoundException”
+•hide technical details (like a stack trace) until requested
+precisely indicate the problem and give constructive help how to fix it
+•“File missing or wrong format ” or “ Name contains bad characters ”
+•restate user's input not “Cannot open file ”, but “Cannot open file named paper.doc ”
+An error message that simply should not occur
+Interaktionsprinzipien | Robustheit gegen Benutzungsfehler | People will make errors (DIN EN ISO 9241 -110, 2020; Shneiderman , 2018).
+
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 52 ---
+52Some options for implementing use error robustness 
+All needed information 
+should be visible
+Disable illegal commands
+Make the primary action prominent 
+larger click area
+Use menus & forms, 
+not command languages
+Use combo boxes, not textboxes
+Interaktionsprinzipien | Robustheit gegen Benutzungsfehler | People will make errors (DIN EN ISO 9241 -110, 2020; Shneiderman , 2018).
+But don't go overboard ...
+Disables the update button after it 
+is clicked, so the person cannot update the post twice by accident
+“Cancel” styled NOTas a button, just a link
+
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 53 ---
+53Check for reasonable input
+Auto recommend feature cuts down on misspellings
+Confirmation dialogs 
+common strategy for error prevention
+•reduces interface efficiency
+•when seen frequently expert users expect it, 
+and include it in their habitual procedure
+In icon- based interfaces, 
+make sure icons are not too similar 
+Match expectations
+in color, position, symbols, …
+Interaktionsprinzipien | Robustheit gegen Benutzungsfehler | People will make errors (DIN EN ISO 9241 -110, 2020; Shneiderman , 2018).
+[Source: Interface Hall of Shame]
+
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 54 ---
+54•Absolute principle 
+Ensure that users never lose their work
+Users should notlose their work as 
+…a result of error on their part, 
+…the vagaries of Internet transmission, or 
+…any other reason other than the completely unavoidable, 
+such as sudden loss of power to a client computer 
+without proper power protection
+Interaktionsprinzipien | Robustheit gegen Benutzungsfehler | People will make errors (Shneiderman , 2018).
+
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 55 ---
+55Postel's Law
+Vorausschauend planen
+Interaktionsprinzipien | Robustheit gegen Benutzungsfehler | Postel's Law (Postel, 1981; Yablonski 2024).„Sei konservativ bei dem, was du tust, 
+und liberal bei dem, was du 
+von anderen akzeptierst.“
+=
+konservativ liberal
+[Image Description: Diagram indicating 'be conservative in what you do, be liberal in what you accept from others' (e.g., flexible input fields).]
+
+--- PAGE 56 ---
+56−Postel's Law in der Praxis
+Interaktionsprinzipien | Robustheit gegen Benutzungsfehler | Postel's Law (Postel, 1981; Yablonski 2024).
+Image Source: Google Search and Microsoft Bing Search•Search Query Auto- Correction
+Image Source: Google•Variationen von E -Mail-Adressen
+Image Source: Google Search of perpetualny.com and 
+www.perpetualny.com•URL Handling
+[Image Description: Diagram indicating 'be conservative in what you do, be liberal in what you accept from others' (e.g., flexible input fields).]
+
+--- PAGE 57 ---
+57−Anwendung von Postel's Law im UX -Design
+Interaktionsprinzipien | Robustheit gegen Benutzungsfehler | Postel's Law (Postel, 1981; Yablonski 2024).
+•User Input Validation
+•Error Handling und Feedback
+•Password Strength 
+Requirements
+•Responsives Design und progressives Enhancement
+
+[Image Description: Diagram indicating 'be conservative in what you do, be liberal in what you accept from others' (e.g., flexible input fields).]
+
+--- PAGE 58 ---
+58−Review questions
+Welche der folgenden Aussagen beziehen sich 
+auf das Interaktionsprinzip der Robustheit gegen Benutzerfehler?
+3 richtige Antworten
+a)Dem Benutzer die Flexibilität ermöglichen, zur Ausführung der Aufgabe unterschiedliche Mittel der Interaktion zu wählen 
+b)Es dem Benutzer erlauben, das System ohne negative Konsequenzen zu explorieren
+c)Informationen auf unterschiedlichen Gerätearten und Anzeigegrößen angemessen darstellen
+d)Konstruktive Erläuterungen zu Fehlern liefern, die deren Korrektur erleichtern
+e)Nur aktuell gültige Auswahlmöglichkeiten zulassen
+f)Informationen mit einem dem Benutzer vertrauten Vokabular darstellen
+Interaktionsprinzipien | Robustheit gegen Benutzungsfehler | Review questions
+https ://tweedback.de/zubh
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 59 ---
+59Nutzer motivieren, Vertrauen schaffen und langfristig binden
+Interaktionsprinzipien | BenutzerbindungBenutzerbindung
+(DIN EN ISO 9241 -110, 2020).Gute Benutzerbindung erhöht Motivation, stärkt Vertrauen und 
+verbessert die langfristige Nutzung.Motivation fördern
+Das System wirkt 
+einladend und unterstützt 
+aktiv.
+•Ansprechendes und 
+funktionelles Design
+•Positive Nutzungserfahrung 
+schaffen
+•Keine unnötigen Hürden für den BenutzerVertrauen aufbauen
+Nutzer müssen sich sicher 
+fühlen.
+•Vertrauenswürdiges 
+Erscheinungsbild
+•Transparente 
+Kommunikation
+•Verlässlichkeit im Verhalten des SystemsNutzer einbeziehen
+Beteiligung stärkt Bindung.
+•Benutzervorschläge 
+berücksichtigen
+•Feedback ernst nehmen
+•Weiterentwicklung am 
+Nutzer orientieren
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 60 ---
+60Peak -End -Rule (Höchststand- Ende-Regel)
+Höhepunkte schaffen
+Interaktionsprinzipien | Benutzerbindung| Peak -End-Rule (Kahneman et al., 1993; Yablonski , 2024).„Menschen beurteilen eine Erfahrung überwiegend 
+danach, wie sie sich auf dem Höhepunkt und am Ende 
+der Erfahrung gefühlt haben, und weniger nach der 
+Gesamtsumme aller Momente beziehungsweise dem 
+Durchschnittswert der Erfahrung.“
+
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 61 ---
+61Höhepunkte prägen Erinnerungen
+−Ein positiver Höhepunkt gegen Ende ist besonders wirksam.
+−Mehr Peaks verbessern die Erinnerung nicht automatisch.
+Verlauf ist wichtiger als Anzahl
+−Eine sich verbessernde Erfahrung wird besser erinnert.
+−Eine schlechte Endphase überschreibt positive Anfänge.
+Das Ende zählt am meisten
+−Das letzte Erlebnis beeinflusst die Gesamtbewertung stark.
+−Ein positives Ende kann eine schlechte Erfahrung überlagern.
+Intensität wirkt stärker als Dauer
+−Kurze, intensive Peaks haben mehr Wirkung als langsame Anstiege.
+−Dramatische Hochs und Tiefs bleiben besser im Gedächtnis.
+Erinnerung ist verzerrt
+−Negative Erlebnisse bleiben stärker im Gedächtnis als positive.
+−Erwartungen (Hype) beeinflussen die Erinnerung zusätzlich.
+Interaktionsprinzipien | Benutzerbindung| Peak -End-Rule (Kahneman et al., 1993; Yablonski , 2024).
+
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 62 ---
+62−Warum ist die Peak -End-Regel wichtig?
+•Die Peak -End-Regel beeinflusst die Erinnerung der Nutzer.
+Die Art und Weise, wie sich Nutzer an ein Erlebnis erinnern, 
+entscheidet über die Wahrscheinlichkeit, mit der sie ein Produkt oder eine Dienstleistung erneut verwenden oder weiterempfehlen.  
+Interaktionsprinzipien | Benutzerbindung| Peak -End-Rule (Kahneman et al., 1993; Yablonski , 2024).
+Game- Features bei Duolingo
+Quelle: Duolingo , 2023
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 63 ---
+63 Interaktionsprinzipien | Usability -Probleme im AlltagUsability-Probleme im Alltag
+Autobahnabfahrt
+Fahrstuhl
+ Treppe
+ Türen
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 64 ---
+64 Interaktionsprinzipien | AppendixAppendix
+Glossary
+AR Augmented Reality
+APA American Psychological Association
+CTA Call toAction
+HCI Human -Computer Interaction
+ISO International Organization forStandardization
+KI Künstliche Intelligenz
+MCI Mensch -Computer -Interaktion
+UX User Experience
+UI User Interface
+RFC Request forComments 
+[Image Description: Slide graphics, icons, or charts illustrating the text's topic.]
+
+--- PAGE 65 ---
+65References
+DIN Deutsches Institut für Normung e. V. (2020). DIN EN ISO 9241- 110:2020- 10 Ergonomie der Mensch -System -Interaktion 
+–Teil 110: Interaktionsprinzipien. Beuth.
+Doherty, W. J., & Thadani , A. J. (1982). The economic value ofrapid response time. IBM Systems Journal, 21(3), 258– 289.
+Kahneman, D., Fredrickson, B. L., Schreiber, C. A., & Redelmeier , D. A. (1993). When more painispreferred toless: Adding
+a better end. Psychological Science , 4(6), 401– 405.
+Krug, S. (2014). Don’t make methink, revisited : A common sense approach toweb usability (3rd ed.). New Riders.
+Miller, G. A. (1956). The magical number seven , plus orminus two: Some limits on ourcapacity forprocessing information .
+Psychological Review, 63(2), 81– 97.
+Nielsen, J. (1994). 10 usability heuristics foruserinterface design. Nielsen Norman Group.
+Norman, D. A. (2013). The design ofeveryday things (Revised and expanded ed.). Basic Books.
+Postel, J. (1981). Internet Protocol. RFC 791. Internet Engineering Task Force.
+Restorff , H. v. (1933). Über die Wirkung von Bereichsbildungen im Spurenfeld. Psychologische Forschung , 18, 299– 342.
+Shneiderman , B. (2018). Designing theuserinterface: Strategies foreffective human- computer interaction (6th ed.). 
+Pearson.
+Soultank . (2023, March 29). Die 7 Interaktionsprinzipien der ISO Norm 9241 -110.
+Tesler , L. (1985). The human- computer interaction .
+usability.de. ( n.d.). Interaktionsprinzipien.
+Yablonski , J. (2024). Laws of UX: Using psychology to design better products & services (2nd ed.). O’Reilly Media, Inc.
+Interaktionsprinzipien | Appendix
+[Image Description: Diagram showing the conservation of complexity (Tesler's Law).]
+

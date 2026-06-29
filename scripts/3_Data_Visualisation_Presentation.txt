@@ -1,0 +1,238 @@
+3) Data Visualisation - Presentation Transcript & Image Descriptions
+
+--- PAGE 1 ---
+Title: Data Visualisation
+Presenter: Angela Kreienkamp, MPrComp (Aus)
+Semester: Sommersemester 2026
+[Image Description: Background graphic showing circular percentages 75% and 42.5%.]
+
+--- PAGE 2 ---
+Course Structure & Agenda
+[Image Description: A step-by-step flowchart connecting 6 modules: 
+1. Usability Design Techniques (Icon: Pencil and ruler)
+2. HCI & Interaction Design (Icon: Hand touching screen)
+3. Data Visualisation (Highlighted in green, Icon: Pie chart)
+4. Usability Concepts (Icon: Lightbulb)
+5. Interaction Principles (Icon: Balance scale)
+6. Evaluation (Icon: User with a checkmark)]
+
+Topics Covered:
+- Foundations of Visual Perception: Preattentive Processing, Gestalt Principles of Grouping, Theory of Visual Variables
+- Cognitive Issues & Pitfalls: Cognitive Load in Dashboards, Change Blindness & Animation, Common Deceptions
+- Interactive Data Exploration: Shneiderman's Mantra, Brushing & Linking, Direct Manipulation
+- Data Storytelling & Narrative Design: The Narrative Arc, Annotation Layers
+- Modern Visualisation Contexts: Mobile First Visualisation, Responsive Data, Accessibility in Charts
+- Appendix
+
+--- PAGE 3 ---
+Foundations of Visual Perception
+Preattentive processing
+- Occurs before focused attention
+- Automatically scans the entire visual field
+- Fast, effortless & parallel
+- Improves intuitiveness and natural information intake
+
+--- PAGE 4 ---
+Examples of Preattentive processing
+[Image Description: Two identical dense blocks of random numbers. In the first block, all numbers are the same normal font weight and color, making it very hard to count the 3s. In the second block, the number '3' is bolded, making it instantly pop out from the rest of the numbers, demonstrating how preattentive processing spots differences in font weight instantly.]
+
+--- PAGE 5 ---
+Semantic depth of field (SDOF)
+[Image Description: Two fields of scattered dots. On the left, all dots are slightly blurry. On the right, one single dot in the lower middle area is sharp and dark, while the others are blurry. This immediately draws the eye to the sharp dot.]
+- Uses blur and sharpness as preattentive features
+- Directs users' attention to relevant objects
+
+--- PAGE 6 ---
+Preattentive Attributes
+- Perceived in under 10 ms
+- Used by our working memory
+
+Table of Attributes:
+- Form: line orientation, line length, width, size, curvature, spatial grouping, added marks, spatial position.
+- Color: hue, intensity.
+- Motion: flicker, motion direction.
+- Spatial position: 2D position, stereoscopic depth, convexity/concavity.
+
+--- PAGE 7 ---
+Examples of Form Attributes
+[Image Description: A grid of 9 small boxes, each demonstrating a preattentive form attribute by having one element stand out from the rest:
+1. Orientation: One tilted line among straight vertical lines.
+2. Line length: One long line among short lines.
+3. Line width: One thick line among thin lines.
+4. Size: One large dot among small dots.
+5. Shape (1): One small square among vertical lines.
+6. Shape (2): One oval among circles.
+7. Curved/straight: One straight line among curved lines.
+8. Added marks: One line with a small cross among plain lines.
+9. Spatial grouping: Dots grouped tightly together vs loosely.
+10. Enclosure: One box or circle drawn around a specific element.]
+
+--- PAGE 8 ---
+Examples of Color and Spatial Position Attributes
+[Image Description: 
+- Color: A red dot stands out among blue dots (Hue); a dark blue dot stands out among light blue dots (Value/Intensity).
+- Spatial position: One dot placed outside a cluster (2D-position). A shading effect makes one circle look concave while others look convex.
+- Not working examples: Parallelism (pairs of tilted lines where one pair is slightly different, hard to spot) and Juncture (hard to spot a different combination of shapes intersecting).
+- Combination: A green square among green circles and red squares, showing that combining hue and shape requires focused attention, not preattentive.]
+
+--- PAGE 9 ---
+How to use preattentive attributes in data visualization?
+[Image Description: Two sets of bar charts. 
+- Top charts use 'Length': Grey bars of varying lengths representing positive feedback percentages for Price, Assortment, Website, Delivery, and Product Quality. Length instantly shows which is highest.
+- Bottom charts use 'Color': The bars are colored to highlight specific categories. Delivery and Price are colored green (good), and Assortment and Website are colored red (poor), instantly drawing attention to successes and failures without reading the lengths.]
+
+--- PAGE 10 & 11 ---
+The Gestalt Principles of grouping
+Gestalt principles explain how the eye creates a whole (gestalt) out of individual elements.
+[Image Description: 
+- Proximity: Grids of dots arranged so they look like vertical columns instead of rows because they are closer vertically.
+- Similarity: Grids of hollow and filled dots looking like horizontal rows because similar colors group together.
+- Common region: Dots enclosed in a drawn boundary box appear to belong together.
+- Continuity: Two intersecting straight lines are perceived as a cross, not four separate line segments meeting in the middle.
+- Closure: A classic optical illusion of three black pac-man shapes facing inwards, which the brain perceives as a white triangle overlapping three black circles.
+- Area: A small square overlapping a larger square is perceived as being in front.
+- Symmetry: Two overlapping diamond outlines are seen as two symmetrical overlapping shapes, not three separate irregular polygons.]
+
+--- PAGE 12 & 13 ---
+Theory of visual variables (by Jaques Bertin 1967/83)
+Visual variables describe the graphic dimensions across which a visualization can be varied to encode information.
+7 visual variables: position, size, shape, value, orientation, color, texture.
+(Motion is added as an 8th variable in computer-based visualization).
+Also known as retinal variables – compared effortlessly, without additional cognitive processing.
+
+Five key characteristics: selectivity, associativity, order, quantity, length.
+
+--- PAGE 14 & 15 & 16 & 17 ---
+Selectivity
+A visual variable is selective if a single instance can be effortlessly isolated from a group.
+- Selective: position, size, value, texture, hue, orientation.
+- Not selective: shape.
+
+[Image Description: 
+- A slide with a dense field of scattered letters (N, M, Z, K). Finding all K's takes time because shape is not selective.
+- Two slides with dense fields of overlapping, hollow geometric shapes (squares, circles, triangles, pentagons, hexagons). In the first image, all outlines are white, making it very hard to "find all the triangles". In the second image, the shapes are colored (triangles are green, squares are blue/red), making the triangles instantly pop out because color (hue) is highly selective.]
+
+--- PAGE 18 ---
+Associativity
+A variable is associative if its symbols are perceived as a group despite differences in that variable.
+- Associative: position, shape, orientation, hue, texture.
+- Dissociative: size, value. (Small size and value interfere with perceiving other variables).
+
+[Image Description: A mix of green circles, green triangles, orange squares, and orange circles/triangles of varying sizes. The eye can group them by color or shape easily, but very small shapes are harder to identify.]
+
+--- PAGE 19 & 20 ---
+Order and Quantity
+Order: A variable is ordered if its values are immediately perceived as ranked (Less/greater).
+- Ordered variables: size, position, value, texture granularity.
+- Not ordered: orientation, hue, shape.
+
+Quantity: A variable is quantitative if relative value differences are immediately readable without an index.
+- Fully quantitative: Position.
+- Somewhat quantitative: Size.
+- Not quantitative: All other variables.
+
+[Image Description: Scatterplot showing how position clearly shows quantity/order. Two circles of different sizes show how size indicates order and rough quantity.]
+
+--- PAGE 21 ---
+Length
+Number of distinctions possible using the variable.
+- Long length (many variations perceptible): shape, position, size, hue, texture, value.
+- Short length (<= 4 alternatives): orientation.
+
+--- PAGE 22 & 23 ---
+Characteristics - overview
+Tables summarizing the variables (position, size, shape, value, orientation, hue, texture, motion, saturation, flicker, illumination, transparency) against characteristics (selective, associative, quantitative, order, length).
+
+--- PAGE 24 & 25 ---
+Cognitive Issues & Pitfalls
+Cognitive Load in Dashboards
+A dashboard functions as a "cockpit" - monitoring tool for assessing system status at a glance.
+Goal: Minimize cognitive load.
+"Graphical excellence is that which gives to the viewer the greatest number of ideas in the shortest time with the least ink in the smallest space." (Edward Tufte)
+Simplicity: Less is more. Simple designs are approachable, recognizable, immediate, and usable.
+
+--- PAGE 26 ---
+Techniques for Simpler Design
+Reduction: Reducing a design to its essence, eliminate whatever isn't necessary.
+[Image Description: Standard toolbar icons showing 'Cut' (scissors), 'Copy' (two pages), and 'Format Painter' (paintbrush). Also standard US Department of Transportation icons (Wheelchair, food, airplane, taxi) illustrating reduced, minimalist design conveying clear meaning without clutter.]
+
+--- PAGE 27 ---
+Regularity
+Repeat elements according to a noticeable rule or rhythm. Reduce components to basic forms, limit typography, make similar forms identical.
+[Image Description: A grid of 20 small alignment/positioning icons from Adobe Photoshop, showing a very regular, repetitive visual rhythm with simple geometric lines.]
+
+--- PAGE 28 ---
+Combination
+Let screen components play multiple roles clearly and succinctly.
+[Image Description: A standard Windows Notepad window. The title bar serves multiple roles: it holds the label "Hello.txt", acts as a dragging handle, holds the minimize/close buttons, and acts as a window activation indicator.]
+
+--- PAGE 29, 30 & 31 ---
+Chunking
+The mind automatically establishes patterns among elements.
+[Image Description: 
+- Page 29: A random scattering of cars and motorbikes mixed together. 
+- Page 30 (Step 1): The motorbikes are moved to the left and cars to the right, arranging related elements closer together.
+- Page 31 (Step 2): A blue background box with "Motorbikes" label is placed behind the bikes, and a green box with "Cars" is placed behind the cars, establishing clear contrast and chunking of information.]
+
+--- PAGE 32 & 33 ---
+White space
+Use white space for grouping, not lines.
+[Image Description: 
+- Two UI dialog boxes. The first is cramped with heavy border boxes around every form element, making it hard to read. The second removes the bounding boxes and uses white space to align elements cleanly.
+- Two bar charts. The first uses heavy, dark gridlines and thick bars crowded together. The second removes the vertical Y-axis line, softens the gridlines, and adds white gaps between segments, making it much cleaner and easier to read.]
+
+--- PAGE 34 & 35 ---
+Change Blindness & Animation
+Change blindness: Observers fail to notice significant changes in a visual scene due to visual interruptions (flickering, scrolling).
+Solution: Animated Transitions. Animations ensure object persistence—the eye follows the motion.
+[Image Description: A bar chart with 11 bars labeled A-K. One bar (H) has a line drawn through it, illustrating how a sudden update in one bar might be missed if the whole dashboard simply refreshes instantly without an animated transition to draw the eye.]
+
+--- PAGE 36 & 37 ---
+Common Deceptions (Misleading graphs)
+[Image Description: Several charts showing data manipulation:
+- Manipulating the y-axis (Omitting baselines): A chart showing sales between 5.5 and 7.5 million looks like a massive volatile swing because the Y-axis starts at 5.0 instead of 0. When shown starting at 0, the sales look very stable.
+- Expanding or compressing the scale: Stretching the Y-axis up to 30 million makes the exact same data look like a tiny, flat, insignificant line.
+- Cherry picking: Showing only sales from Jan-Jun shows a steep drop, but a zoomed-out view over a decade shows an overall rising trend.
+- Flipping the graph: Reversing the Y-axis so 0 is at the top makes a rising trend look like a falling trend.
+- Two y-axis: Forcing two unrelated lines (Sales and Sick calls) to overlap by manipulating their dual axes to falsely imply correlation.
+- 3D pie charts: The perspective distorts the front slice making it look much larger than the back slices.]
+
+--- PAGE 38 ---
+Interactive Data Exploration
+Shneiderman's Mantra
+"Overview first, zoom and filter, then details-on-demand."
+[Image Description: A Venn diagram-like conceptual map. A large grey circle for "Overview", containing a smaller green circle "Zoom in", with thought bubbles coming out for "Details on demand".]
+
+--- PAGE 39 & 40 ---
+Brushing & Linking, Direct Manipulation
+- Brushing & Linking: Selecting a subset of data in one view automatically highlights the same data in other views. Requires low latency (<100ms).
+- Direct Manipulation: Interact directly with graphical objects (drag, click, slide). Immediate feedback, encourages discovery.
+
+--- PAGE 41, 42 & 43 ---
+Data Storytelling & Narrative Design
+Moving from Exploratory to Explanatory.
+[Image Description: Page 41: A Venn diagram intersecting Data, Visualisation, and Narrative. The intersection leads to "Storytelling". Page 43: A graph of the Narrative Arc (Freytag's Pyramid): Set-Up -> Inciting Incident (Hook) -> Rising Action (Conflict) -> Climax (Aha! Moment) -> Falling Action -> Resolution (Call to Action).]
+
+--- PAGE 44 & 45 ---
+Annotation Layers & Typography
+- Annotations: Highlight, contextualize, and reduce cognitive load via direct labeling. 
+- Typography: Use high-contrast text, clear fonts, and proper spacing (leading, kerning).
+
+--- PAGE 46 & 47 ---
+Modern Visualisation Contexts
+Mobile First Visualization & Responsive Data
+- Mobile Challenge: Limited space, fat fingers. Prioritize KPIs, vertical scrolling, micro-charts (sparklines). Thumb zone design.
+- Responsive Data: Adaptive visual encoding. Shrink or change chart types based on screen size (e.g., Heatmap to Bar Chart).
+[Image Description: A side-by-side comparison. Left: Mobile phone showing a single large KPI ($1.2M) and a simple sparkline trend. Right: Desktop screen showing the same KPI but alongside 2 other KPIs and a complex dual-line chart with a legend and axes. Text between them reads "Progressive Enhancement".]
+
+--- PAGE 48 ---
+Accessibility in Charts
+- Color Independence: Never rely on color alone (use patterns/shapes).
+- High Contrast: 3:1 for objects, 4.5:1 for text (WCAG 2.1).
+- Screen Readers: Meaningful Alt-Text, accessible tables.
+- Keyboard Navigation: Reachable via Tab-key.
+
+--- PAGE 49 & 50 ---
+Appendix
+- Glossary of terms (AA, AAA, ARIA, CTA, HCI, KPI, SDOF, SVG, UX, WCAG).
+- References (Bertin, Cole & Zacks, Few, Healy, Knaflic, Mullet & Sano, Shneiderman, Tufte, W3C, Ware).

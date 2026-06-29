@@ -1,0 +1,167 @@
+4) Usability Konzepte
+
+=========================================
+1. Usability Standards & Design Process
+=========================================
+[Image Description: A 6-step roadmap diagram outlining the course structure or usability process: 
+1. Usability Design Techniques (tools icon)
+2. HCI & Interaction Design (touch icon)
+3. Data Visualisation (pie chart icon)
+4. Usability Concepts (lightbulb icon)
+5. Interaction Principles (scales icon)
+6. Evaluation (user with checkmark icon).]
+
+Topics Covered:
+- Definitions and Standards (Basic Terms, ISO 9241-11, Nielsen Usability 101, The 5Es Framework)
+- Comparison of Usability Concepts
+- Heuristics & Rules of Thumb (Nielsen's 10, Shneiderman's 8, Comparison)
+- Digital Accessibility & Legal Requirements (WCAG 2.2, Legal Framework, Usability vs. Accessibility)
+
+=========================================
+2. Definitions and Standards
+=========================================
+Basic Terms and Expressions:
+- Usability: "Extent to which a system, product or service can be used by specified users to achieve specified goals with effectiveness, efficiency and satisfaction in a specified context of use." (ISO 9241-11)
+- Humans have remarkable perceptual and cognitive capabilities, which are usually heavily underestimated. Effective systems should take into account limitations of human perception, context of use, and goals/activities to be performed.
+
+User-Centered Design (UCD):
+- "A design philosophy and a process in which the needs, wants, and limitations of end users of a product are given extensive attention at each stage of the design process." [Wikipedia]
+- "Human-centered design is an approach to interactive systems development that aims to make systems usable and useful by focusing on the users, their needs and requirements..." [ISO 9241-210]
+
+[Image Description: A circular diagram showing the iterative User-Centered Design process. The 'User' is at the center. An outer loop shows the sequential phases: Research -> Concept -> Design -> Develop -> Release. Between the user and the outer loop are iterative 'Test / Analysis' cycles pointing back and forth, indicating continuous evaluation throughout the development cycle.]
+
+The 6 Principles of User-Centered Design (ISO 9241-210):
+1. Design is based upon an explicit understanding of users, tasks, and environments.
+2. Users are involved throughout design and development.
+3. Design is driven and refined by user-centered evaluation.
+4. Iterative design process.
+5. Design addresses the whole user experience.
+6. Design team includes multidisciplinary skills and perspectives.
+
+Benefits of a human-centered approach:
+- Systems are easier to understand and use.
+- Reduced discomfort, stress, and errors.
+- Improved productivity of users and efficiency of organizations.
+- Improved product quality, aesthetics, and impact (competitive advantage).
+
+User Experience (UX):
+- "A person's perceptions and responses resulting from the use and/or anticipated use of a product, system or service." (ISO 9241-210:2020)
+- UX is an effect of brand image, design, functionality, performance, interactive behavior, helpfulness of the system, and environment.
+
+Usability vs. User Experience:
+- Before use: Anticipation (UX)
+- While using: Effectiveness, Efficiency (Usability) + UX elements
+- After use: Satisfaction (Usability), Fulfilment of expectation (UX)
+
+Interactive System & Interface:
+- Interactive System: Combination of hardware, software, and service components. Includes packaging, branding, user documentation, online help, support, and training.
+- Interface: All components of an interactive system that provide information and controls necessary for the user to perform tasks.
+
+=========================================
+3. ISO 9241-11: Usability Definitions
+=========================================
+Gebrauchstauglichkeit (Usability): Ausmaß, in dem ein System durch bestimmte Benutzer in einem bestimmten Nutzungskontext genutzt werden kann, um Ziele effektiv, effizient und zufriedenstellend zu erreichen.
+- Effektivität (Effectiveness): Genauigkeit und Vollständigkeit, mit denen Benutzer bestimmte Ziele erreichen.
+- Effizienz (Efficiency): Verwendete Ressourcen in Bezug auf die erzielten Ergebnisse.
+- Zufriedenstellung (Satisfaction): Ausmaß der Übereinstimmung der physischen, kognitiven und emotionalen Reaktionen des Benutzers mit Erfordernissen/Erwartungen.
+
+Nutzungskontext (Context of Use):
+Kombination von Benutzern, Zielen, Aufgaben, Ressourcen und Umgebung.
+
+[Image Description: A structural diagram illustrating the ISO 9241-11 concept of usability. On the left, the 'Context of Use' (Nutzungskontext) contains Environment, Resources, Users, and Goals/Tasks, surrounding the 'System, Product or Service'. An arrow labeled 'Use' (Nutzung) leads to the right box, 'Outcomes of Use' (Ergebnisse der Nutzung), which contains 'Usability' (Effectiveness, Efficiency, Satisfaction) and 'Other Outcomes' (Accessibility, User Experience, Avoidance of harm).]
+
+[Image Description: A diagram mapping usability requirements to interaction principles. The top row defines Usability (Effectiveness -> Efficiency -> Satisfaction). The bottom row displays the ISO 9241-110 Interaction principles (Suitability for the task, Self-descriptiveness, Conformity with user expectations, Suitability for learning, Controllability, Error tolerance, User engagement) pointing upwards as the foundation to achieve those usability goals.]
+
+=========================================
+4. Nielsen: Usability 101
+=========================================
+What is Usability?
+Defined by 5 quality components:
+1. Learnability: How easy to accomplish basic tasks the first time?
+2. Efficiency: How quickly can users perform tasks once learned?
+3. Memorability: How easily can users reestablish proficiency after a period of not using it?
+4. Errors: How many errors, how severe, and how easily can users recover?
+5. Satisfaction: How pleasant is it to use the design?
+
+Utility + Usability = Useful
+- Utility: Does it provide the features you need?
+- Usability: How easy & pleasant are these features to use?
+
+Why is usability important?
+- On the Web, usability is a necessary condition for survival. If it's hard to use, people leave.
+- Best Practice: Spending about 10% of a design project budget on usability doubles a website's desired quality.
+
+How to improve usability:
+- User Testing with Representative users, Representative tasks, and Observation.
+- Important: Users are tested individually and solve problems on their own. Helping them contaminates results.
+- "You are not the user." "The user is always right (consistent problems are the system's fault)."
+- Test 5 users (typically enough). Small iterative tests are better than one big study. Focus groups != User testing.
+
+When to work on usability: At each stage of the design process. Start early and test every step.
+Where to test: Anywhere quiet (doors closed). A notepad is the only needed equipment.
+
+=========================================
+5. The 5Es Framework (Whitney Quesenbery)
+=========================================
+[Image Description: Three bubble charts illustrating the 5Es framework representing different user profiles:
+1. "5Es evenly balanced": Five equal-sized circles for Effective, Efficient, Engaging, Error Tolerant, and Easy to Learn (20% each).
+2. "Online banking customers": 'Easy to Learn' and 'Error Tolerant' are the largest bubbles, showing these are the top priorities for this user group.
+3. "Bank employee": 'Effective' and 'Efficient' are the largest bubbles, showing priority on speed and accuracy for expert daily users.]
+
+Dimensions of Usability:
+1. Effective
+2. Efficient
+3. Engaging
+4. Error tolerant
+5. Easy to learn
+Different users have different usability needs based on context.
+
+=========================================
+6. Heuristics & Rules of Thumb
+=========================================
+Nielsen's 10 Usability Heuristics (1994):
+1. Visibility: Always show system status clearly & quickly.
+2. Match with Real World: Use users' language & familiar concepts.
+3. User Control & Freedom: Provide undo, redo, cancel.
+4. Consistency & Standards: Follow conventions & stay consistent.
+5. Error Prevention: Avoid problems before they happen.
+6. Recognition over Recall: Make information visible.
+7. Flexibility & Efficiency: Support shortcuts & customization.
+8. Minimalist Design: Show only what's necessary.
+9. Error Recovery: Clear messages + solutions.
+10. Help & Documentation: Easy to find, concise, task-focused.
+
+Shneiderman's 8 Golden Rules (1986):
+1. Consistency: Use uniform layouts, terminology, and visual styles.
+2. Universal Usability: Design for diverse users (e.g., dark mode, accessibility, shortcuts).
+3. Informative Feedback: Provide immediate, clear system responses (e.g., "Message sent").
+4. Completion-Oriented Dialogs: Indicate when tasks are completed.
+5. Simple Error Handling: Show clear error messages with solutions.
+6. Reversibility of actions: Allow users to undo actions.
+7. Internal locus of control: Keep users in charge of actions.
+8. Memory relief: Make information visible (e.g., recent items, active filters).
+
+=========================================
+7. Digital Accessibility & Legal Requirements
+=========================================
+Barrierefreiheit als Marktzugangsvoraussetzung:
+- The Curb-Cut-Effect: Barrierefreie Systeme steigern die Usability für alle Nutzer (z.B. Untertitel in lauten Umgebungen, hoher Kontrast bei Sonne).
+- Inklusion ist Pflicht: Kein Add-on, sondern Menschenrecht (UN-BRK) und rechtliche Grundvoraussetzung.
+
+[Image Description: A side-by-side illustration comparing accessibility features. On the left, a steep concrete staircase blocks a wheelchair user, a parent with a stroller, an elderly person with a cane, and a traveler with heavy luggage. A red "No Access" sign stands next to them, depicting frustration. On the right, a wide, curved ramp allows everyone—a wheelchair user, a person walking, a cyclist, and a child on a scooter—to travel easily and happily. This demonstrates the "Curb-Cut Effect" where accessibility benefits everyone.]
+
+WCAG 2.2 Prinzipien (POUR):
+1. Perceivable (Wahrnehmbar): Inhalte müssen mit den Sinnen erfassbar sein. (Check: Textalternativen vorhanden?)
+2. Operable (Bedienbar): Navigation darf keine unmögliche Interaktion erfordern. (Check: Per Tastatur bedienbar? Genug Zeit?)
+3. Understandable (Verständlich): Bedienung und Informationen klar & vorhersehbar. (Check: Einfache Sprache? Hilfreiche Fehler?)
+4. Robust (Robust): Kompatibel mit aktuellen & zukünftigen Technologien (z.B. Screenreader). (Check: Code standardkonform?)
+
+Gesetzlicher Rahmen & Standards:
+- EU-Ebene: EU-Richtlinie 2016/2102 (öffentliche Stellen) & European Accessibility Act (EAA) 2019/882.
+- Deutschland: BITV 2.0 (öffentliche Stellen des Bundes) & BFSG (Barrierefreiheitsstärkungsgesetz für Produkte/Dienste).
+- EN 301 549: Harmonisierter europäischer Standard für Barrierefreiheit von IKT. Wer dies einhält, gilt rechtlich als konform.
+
+Usability vs. Barrierefreiheit:
+- Usability: Fokus auf Effektivität, Effizienz und Zufriedenheit in einem bestimmten Nutzungskontext.
+- Accessibility (Barrierefreiheit): Fokus auf Zugänglichkeit und Nutzbarkeit für jeden Nutzer in jedem Kontext.
+- Fazit: Gute Usability beginnt mit Barrierefreiheit. Ohne Barrierefreiheit gibt es keine gute Benutzerfreundlichkeit.
