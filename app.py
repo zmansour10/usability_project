@@ -19,6 +19,7 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
+from plotly.subplots import make_subplots
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
@@ -334,8 +335,9 @@ st.markdown(
 # ---------------------------------------------------------------------------
 # 5. Tabs
 # ---------------------------------------------------------------------------
-tab_map, tab_wq, tab_corr, tab_sum = st.tabs([
+tab_map, tab_wq, tab_corr, tab_sum, tab_ts = st.tabs([
     "Stationsübersicht", "Wasserqualität", "Korrosion", "Zusammenfassung",
+    "Zeitreihenanalyse",
 ])
 
 # ── TAB 1: STATIONSÜBERSICHT ───────────────────────────────────────────────
@@ -838,3 +840,4 @@ with tab_sum:
                          column_config={"group_name": "Gruppe",
                                         "corrosion_site_name": "Korrosions-Standort",
                                         "wq_site_name": "WQ-Station"})
+
